@@ -14,6 +14,11 @@ z-index:100;
 position:fixed;
 width:100%;
 
+.active{
+    background:red;
+}
+
+
 `
 const NavLink = css`
 color:#fff;
@@ -23,6 +28,7 @@ padding: 0 1rem;
 height:100%;
 cursor:pointer;
 text-decoration:none;
+
 `
 const Logo = styled(Link)`
 ${NavLink}
@@ -74,12 +80,10 @@ margin-right:24px;
 const Navbar = ({ toggle }) => {
 
 
-
-
-    return <Nav>
+    return <Nav className="active">
         <Logo to="/">Corojo Club</Logo>
         <MenuBars onClick={toggle} />
-        <NavMenu>
+        <NavMenu >
 
             {menuData.slice(1, menuData.length).map((item) => {
 
@@ -87,7 +91,7 @@ const Navbar = ({ toggle }) => {
                 return <NavMenuLinks to={link} key={id} >
 
 
-                    {title}  
+                    {title}
                 </NavMenuLinks>
             })}
         </NavMenu>

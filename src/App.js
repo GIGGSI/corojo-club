@@ -17,6 +17,7 @@ import Events from './pages/Events';
 import Contacts from './pages/Contacts';
 import SingleCigarPage from './pages/SingleCigarPage';
 import ErrorPage from './pages/Errorpage';
+import ScrollToTop from "./SctrollToTheTop";
 
 
 
@@ -30,6 +31,7 @@ function App() {
 
   return <>
     <GlobalStyle />
+    <ScrollToTop />
     <Navbar toggle={toggle} />
     <Dropdown isOpen={isOpen} toggle={toggle} />
     <Switch>
