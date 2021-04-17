@@ -46,9 +46,7 @@ align-items:center;
 img {
 height:7rem;
 }
-img:hover {
 
-}
 h3{
     color:white;
 }

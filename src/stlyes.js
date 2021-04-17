@@ -42,6 +42,7 @@ export const setBorder = ({ width = "2px", styled = "solid", color = "black" } =
 }
 
 
+// set mobile size
 const sizes = {
     large: 1200,
     desctop: 992,

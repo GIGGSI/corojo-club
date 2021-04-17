@@ -6,8 +6,6 @@ import { setColor } from '../../stlyes';
 const Section = styled.section`
 width:100%;
 height:100%;
-
-
 `
 const Container = styled.div`
 padding: 3rem calc((100vw - 1300px)/3);

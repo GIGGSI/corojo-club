@@ -34,7 +34,7 @@ h3 {
 h4 {
     font-size:1.2em;
     line-height:1.2;
-    margin-bottom:1.25em;
+    /* margin-bottom:1.25em; */
     font-weight:bold;
 }
 h5 {
