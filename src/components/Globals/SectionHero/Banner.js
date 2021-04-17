@@ -2,6 +2,25 @@ import React from 'react'
 import styled, { css, keyframes } from 'styled-components'
 import { media, setBorder, setColor, setLetterSpacing, setRem } from '../../../stlyes'
 
+const fadeIn = (start, point, end) => {
+    const animation = keyframes`
+0%{
+    opacity:0;
+    transform:translateY(${start})
+}
+50%{
+    opacity:0.5;
+    transform:translateY(${point})
+}
+100%{
+    opacity:1;
+    transform:translateY(${end})
+}
+`
+    return css` animation: ${animation} 3s ease-in-out`;
+}
+
+
 const Banner = ({ className, title, text, children, greeting }) => {
     return <div className={className}>
         <h1>{greeting} <span>{title}</span></h1>
@@ -42,10 +61,12 @@ ${media.tablet`
 
 
 h1{
+    ${fadeIn('100%', '-20%', 0)}
         /*set animation*/
 
 }
 .info{
+    ${fadeIn('-100%', '20%', 0)}
     /*set animation*/
 }
 `
