@@ -1,6 +1,3 @@
-import julia1 from '../images/julia1.jpeg'
-import julia2 from '../images/julia2.jpg'
-import julia3 from '../images/julia3.jpg'
 import coffe1 from '../images/coffe1.jpg'
 import coffe2 from '../images/coffe2.jpg'
 import coffe3 from '../images/coffe3.png'

@@ -1,25 +1,12 @@
 import React from 'react'
 import styled, { css } from 'styled-components/macro'
 import { Link } from 'react-router-dom'
-import { menuData } from '../../data/menuData';
 import { Button } from './Button'
 import { FaBars } from 'react-icons/fa'
-
-const Nav = styled.nav`
-height:60px;
-display:flex;
-justify-content:space-between;
-padding: 1rem 2rem;
-z-index:100;
-position:fixed;
-width:100%;
-
-.active{
-    background:red;
-}
+import Dropdown from './Dropdown';
+import './Navbar.css'
 
 
-`
 const NavLink = css`
 color:#fff;
 display:flex;
@@ -44,6 +31,7 @@ display:none;
 display:block;
 color:white;
 font-size:2.5rem;
+margin-top:1rem;
 cursor:pointer;
 position:absolute;
 top:0;
@@ -77,31 +65,67 @@ margin-right:24px;
 `
 
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, className }) => {
+    const [dropdown, setDropdown] = React.useState(false);
+    const [navbar, setNavbar] = React.useState(false);
 
 
-    return <Nav className="active">
+    const onMouseEnter = () => {
+        if (window.innerWidth < 760) {
+            setDropdown(false);
+        } else {
+            setDropdown(true);
+        }
+    };
+
+    const onMouseLeave = () => {
+        if (window.innerWidth < 760) {
+            setDropdown(false);
+        } else {
+            setDropdown(false);
+        }
+    };
+
+    const changeBackground = () => {
+        if (window.scrollY >= 530) {
+            setNavbar(true)
+
+        } else {
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll', changeBackground)
+
+    return <nav className={navbar ? 'active' : 'null'}>
         <Logo to="/">Corojo Club</Logo>
         <MenuBars onClick={toggle} />
         <NavMenu >
 
-            {menuData.slice(1, menuData.length).map((item) => {
+            <NavMenuLinks to='#' onMouseEnter={onMouseEnter}
+                onMouseLeave={onMouseLeave}>
+                Cigars
+                {dropdown && <Dropdown />}
+            </NavMenuLinks>
+            <NavMenuLinks to='/coffe' >
+                Coffe
 
-                const { link, id, title, showMenu } = item
-                return <NavMenuLinks to={link} key={id} >
+            </NavMenuLinks>
+            <NavMenuLinks to='/beer'>
+                Beer
 
+            </NavMenuLinks>
+            <NavMenuLinks to='/events' >
+                Events
+            </NavMenuLinks>
 
-                    {title}
-                </NavMenuLinks>
-            })}
         </NavMenu>
         <NavBtn>
-            <Button to='/contact'
-                primary='true'>
+            <Button to='/contacts'
+            >
                 Contact us
             </Button>
         </NavBtn>
-    </Nav>
+    </nav >
 }
 
 export default Navbar

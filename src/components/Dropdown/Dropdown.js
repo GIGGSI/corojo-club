@@ -3,7 +3,6 @@ import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components/macro';
 import { menuData } from '../../data/menuData'
-import { Button } from '../../components/Navbar/Button'
 import { setColor } from '../../stlyes';
 
 const DropdownContainer = styled.div`
@@ -44,12 +43,12 @@ const DropdownWrapper = styled.div`
 const DropdownMenu = styled.div`
 display:grid;
 grid-template-columns:1fr;
-grid-template-rows:repeat(5,60px);
+grid-template-rows:repeat(14,40px);
 text-align:center;
-margin-bottom:4rem;
+
 
 @media screen and (max-width:480px) {
-    grid-template-rows:repeat(5,40px);
+    grid-template-rows:repeat(14,45px);
 
 }
 `
@@ -94,11 +93,7 @@ const Dropdown = ({ isOpen, toggle }) => {
                     </DropdownLink>
                 })}
             </DropdownMenu>
-            <BtnWrap>
-                <Button primary="true" round="true" big="true" to="/contact">
-                    Contact us
-                </Button>
-            </BtnWrap>
+
         </DropdownWrapper>
     </DropdownContainer>
 }

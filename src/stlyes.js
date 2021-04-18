@@ -24,6 +24,10 @@ export const setBackground = ({ img = `${defaultImg}`, color = "rgba(0,0,0,0.5)"
     return ` background:linear-gradient(${color},${color}),
 url(${img})
  center/cover fixed no-repeat;`
+};
+
+export const navBg = ({ color = "transparent" } = {}) => {
+    return `background:${color}`
 }
 
 // set rems

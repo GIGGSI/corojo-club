@@ -1,9 +1,8 @@
 import React from 'react'
 import { CoffeData } from '../../data/CoffeData'
 import styled from 'styled-components/macro';
-import img__bg from '../../images/bg_4.jpg';
 
-import { setFlex, setColor, setFont, media } from '../../stlyes';
+import { setColor, setFont, media } from '../../stlyes';
 
 const CoffeInfo = () => {
     const [data, setData] = React.useState(CoffeData);
@@ -40,7 +39,6 @@ text-align:center;
 width:100%;
 height:100%;
 padding-top:4rem;
-/* background: url(${img__bg}) center/cover fixed no-repeat; */
 `;
 
 const HeaderSections = styled.div`
@@ -70,7 +68,6 @@ justify-content: center;
 
 /*mobie veiw*/
 ${media.tablet`
- /* grid-template-columns:1fr ;  */
 margin-top:5rem;
 grid-row-gap:3rem;
 
@@ -80,12 +77,10 @@ grid-row-gap:3rem;
 display: flex;
   flex-direction: row-reverse;
   padding-top:5rem;
-  
 }
 
 .demo .text__info {
     width:50%;
-  
 }
 `}
 
@@ -113,8 +108,6 @@ width:100%;
 
 ${media.tablet`
 grid-template-columns:1fr 1fr;
-/* grid-row-gap:3rem;  */
-/* margin-top:5rem; */
 
 .text__info p{
     padding-top:2rem;
