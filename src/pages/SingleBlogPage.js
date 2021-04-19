@@ -55,7 +55,12 @@ const SingleBlogPage = () => {
                     <p>{paragraphSix}</p>
                 </SingleBlogSection>
                 <Windgets>
-                    <h4>Recomended blogs</h4>
+                    <Heading>
+                        <h4>Recomended blogs</h4>
+
+                    </Heading>
+
+
                     {recomendend.map((item) => {
                         const { imgUrl, heading, paragraphOne, path, id } = item
                         return <DisplayBlog key={id}>
@@ -110,6 +115,8 @@ p{
 }
 img{
     width:100%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
 
 }
 
@@ -118,12 +125,19 @@ img{
     
 }
 
+
+`
+
+const Heading = styled.div`
+
+align-items:center;
+text-align:center;
 `
 const Windgets = styled.div`
+
 display:flex;
 flex-direction:column;
 
-align-items:flex-start;
 text-align:center;
 line-height:1.4;
 z-index: 2;
@@ -132,7 +146,11 @@ order:${({ reverse }) => (reverse ? '2' : '1')};
 color:${setColor.mainWhite};
 
 h4{
-    text-align:center;
+    color:${setColor.primaryColor};
+    text-transform:uppercase;
+    align-items:center;
+text-align:center;
+    
 }
 `
 
@@ -147,6 +165,18 @@ a {
 img{
     width:70%;
     height:8rem;
+   -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+@media screen and (max-width:768px){
+    img {
+        height:20rem;
+         width:100%;
+  
+    }
+    
 }
 `
 
