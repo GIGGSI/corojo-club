@@ -5,7 +5,7 @@ import Banner from '../components/Globals/SectionHero/Banner'
 import beerBG from '../images/beerBG.jpg';
 import JuliaHero from '../components/Julia/JuliaHero';
 import JuliasStory from '../components/Julia/JuliasStory';
-import ImageSection from '../components/ImageSection/ImageSection'
+import ImageSection from '../components/ImageSection/ImageSection';
 import JuliaImageSection from '../components/ImageSection/JuliasImageSection';
 import WhereJulia from '../components/Julia/WhereJulia';
 

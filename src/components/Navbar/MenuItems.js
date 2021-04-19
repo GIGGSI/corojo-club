@@ -1,42 +1,42 @@
 export const MenuItems = [
     {
         title: 'Padron',
-        path: '/padron',
+        path: '/cigar/padron',
         cName: 'dropdown-link'
     },
     {
         title: 'Arturo Fuente',
-        path: '/arturo-fuente',
+        path: '/cigar/arturo-fuente',
         cName: 'dropdown-link'
     },
     {
         title: 'Olivia',
-        path: '/olivia',
+        path: '/cigar/olivia',
         cName: 'dropdown-link'
     },
     {
         title: 'Nub',
-        path: '/nub',
+        path: '/cigar/nub',
         cName: 'dropdown-link'
     },
     {
         title: 'Cain',
-        path: '/cain',
+        path: '/cigar/cain',
         cName: 'dropdown-link'
     },
     {
         title: 'La garela',
-        path: '/la-garela',
+        path: '/cigar/la-garela',
         cName: 'dropdown-link'
     },
     {
         title: 'La Flor Dominicana',
-        path: '/la-flor-dominicana',
+        path: '/cigar/la-flor-dominicana',
         cName: 'dropdown-link'
     },
     {
         title: 'Ciboa',
-        path: '/cioba',
+        path: '/cigar/ciboa',
         cName: 'dropdown-link'
     }
 ];

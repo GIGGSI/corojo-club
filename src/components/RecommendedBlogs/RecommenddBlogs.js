@@ -4,6 +4,8 @@ import img__bg from '../../images/bg_4.jpg';
 import { recommendedBlogs } from '../../data/recommendedBlogs'
 import { Link } from 'react-router-dom'
 import { setColor } from '../../stlyes';
+import { BlogData } from '../../data/BlogData'
+
 
 
 
@@ -23,6 +25,11 @@ grid-template-columns:1fr 1fr 1fr;
 /* grid-template-rows:200px; */
 justify-content:center;
 
+@media screen and (max-width:1100px){
+grid-template-columns:1fr 1fr;
+margin-top:5rem;
+grid-row-gap:3rem;
+}
 
 @media screen and (max-width:768px){
 grid-template-columns:1fr;
@@ -32,6 +39,8 @@ margin-top:-3rem;
 const DisplaySection = styled.div`
 padding-top:3rem;
 transition: 0.3s;
+margin: 0 0.5rem;
+
 
 a {
     text-decoration:none;
@@ -68,6 +77,10 @@ p{
 
 `
 const RecommenddBlogs = () => {
+    const [data, setData] = React.useState(BlogData);
+
+    const filteredArray = data.filter((item) => item.recomended);
+
 
     return <Section>
         <Heading>
@@ -75,14 +88,15 @@ const RecommenddBlogs = () => {
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         </Heading>
         <Container>
-            {recommendedBlogs.map((item) => {
-                const { heading, paragraph, path, id, imgUrl } = item;
+            {filteredArray.map((item) => {
+                const { heading, paragraphOne, path, id, imgUrl } = item;
+
                 return <DisplaySection key={id}>
                     <Link to={path}>
                         <img src={imgUrl} alt={heading} />
                         <div>
                             <h1>{heading}</h1>
-                            <p>{paragraph}</p>
+                            <p>{paragraphOne.length > 200 ? paragraphOne.substr(0, 200) + '...' : paragraphOne}</p>
                         </div>
                     </Link>
                 </DisplaySection>

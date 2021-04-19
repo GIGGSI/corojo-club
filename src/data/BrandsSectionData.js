@@ -12,42 +12,42 @@ export const BrandsSectionData = [
     {
         name: 'Padron',
         imgUrl: padron,
-        path: 'cigar/padron'
+        path: '/cigar/padron'
     },
     {
         name: 'Arturo Fuente',
         imgUrl: arturoFuente,
-        path: 'cigar/arturo-fuente'
+        path: '/cigar/arturo-fuente'
     },
     {
         name: 'Olivia',
         imgUrl: olivia,
-        path: 'cigar/olivia'
+        path: '/cigar/olivia'
     },
     {
         name: 'Nub',
         imgUrl: nub,
-        path: 'cigar/nub'
+        path: '/cigar/nub'
     },
     {
         name: 'Cain',
         imgUrl: cain,
-        path: 'cigar/cain'
+        path: '/cigar/cain'
     },
     {
         name: 'La Garela',
         imgUrl: laGarela,
-        path: 'cigar/la-garela'
+        path: '/cigar/la-garela'
     },
     {
         name: 'La Flor Dominicana',
         imgUrl: laFlorDominicana,
-        path: 'cigar/la-flor-dominicana'
+        path: '/cigar/la-flor-dominicana'
     },
     {
         name: 'Ciboa',
         imgUrl: ciboa,
-        path: 'cigar/ciboa'
+        path: '/cigar/ciboa'
     },
 
 
