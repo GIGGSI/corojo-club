@@ -5,6 +5,7 @@
   top: 80px;
   list-style: none;
   text-align: start;
+  margin-top: -0.1rem;
 }
 
 .dropdown-menu li {
@@ -38,3 +39,4 @@
     display: none;
   }
 }
+

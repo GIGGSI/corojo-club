@@ -64,9 +64,15 @@ text-transform:uppercase;
 list-style:none;
 cursor:pointer;
 transition:0.2s ease-out;
+padding-top:3rem;
 
 &:hover {
     color:${setColor.mainBlack}
+}
+
+@media screen and (max-width:780px) {
+ font-size:2rem;
+
 }
 
 `

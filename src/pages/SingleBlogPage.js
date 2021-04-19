@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 import img__bg from '../images/bg_4.jpg'
 import SectionHero from '../components/Globals/SectionHero/SectionHero'
 import Banner from '../components/Globals/SectionHero/Banner'
-import { setColor } from '../stlyes';
+import { setColor, setBackground } from '../stlyes';
 import { Link } from 'react-router-dom'
 
 
@@ -80,8 +80,9 @@ const SingleBlogPage = () => {
 const Section = styled.section`
 width:100%;
 height:100%;
+
 /* padding-top:4rem; */
-background-image: url(${img__bg});
+background-image: url(${img__bg}) ; 
 `
 const Container = styled.div`
 padding: 3rem calc((100vw - 1300px)/2);

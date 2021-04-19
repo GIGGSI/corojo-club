@@ -43,7 +43,7 @@ transform:translate(-50%,25%)
 const NavMenu = styled.div`
 display:flex;
 align-items:center;
-margin-right:-48px;
+/* margin-right:-48px; */
 
 @media screen and (max-width:768px) {
     display:none;
@@ -53,12 +53,14 @@ margin-right:-48px;
 const NavMenuLinks = styled(Link)`
 ${NavLink}
 text-transform:uppercase;
+
 `
 
 const NavBtn = styled.div`
 display:flex;
 align-items:center;
 margin-right:24px;
+
 @media screen and (max-width:768px) {
     display:none;
 }
@@ -119,12 +121,12 @@ const Navbar = ({ toggle, className }) => {
             </NavMenuLinks>
 
         </NavMenu>
-        <NavBtn>
+        {/* <NavBtn>
             <Button to='/contacts'
             >
                 Contact us
             </Button>
-        </NavBtn>
+        </NavBtn> */}
     </nav >
 }
 

@@ -56,6 +56,7 @@ p{
     padding-bottom:2rem;
 }
 img {
+    width:100%;
     height:15rem;
 }
 &:hover{

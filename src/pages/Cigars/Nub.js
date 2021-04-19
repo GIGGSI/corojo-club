@@ -1,11 +1,17 @@
 import React from 'react'
+import SectionSinglePageCigar from '../../components/Globals/SectionHero/SectionSinglePageCigar'
+import NubCigar from '../../images/nub-cigars.jpg'
+import Banner from '../../components/Globals/SectionHero/Banner'
 
 const Nub = () => {
-    return (
-        <div>
-            <h1>I am nub</h1>
-        </div>
-    )
+    return <>
+        <SectionSinglePageCigar img={NubCigar}>
+            <Banner>
+
+            </Banner>
+        </SectionSinglePageCigar>
+
+    </>
 }
 
 export default Nub

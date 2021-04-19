@@ -72,11 +72,11 @@ export const menuData = [
         link: '/events',
         showMenu: false,
     },
-    {
-        id: 13,
-        title: 'Contacts',
-        link: '/contacts',
-        showMenu: false,
-    }
+    // {
+    //     id: 13,
+    //     title: 'Contacts',
+    //     link: '/contacts',
+    //     showMenu: false,
+    // }
 ];
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro';
 import img__bg from '../../images/bg_4.jpg';
+import { setColor } from '../../stlyes';
 
 const Section = styled.section`
 width:100%;
@@ -38,7 +39,7 @@ h1{
 padding-top:4rem;
 padding-bottom:1rem;
 /* font-size:clamp(3.5rem, 4vw,2rem); */
-color:#CD853F;
+color:${setColor.primaryColor}
 
 }
 p{
