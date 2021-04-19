@@ -10,8 +10,8 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Olivia',
-        path: '/cigar/olivia',
+        title: 'Oliva',
+        path: '/cigar/oliva',
         cName: 'dropdown-link'
     },
     {

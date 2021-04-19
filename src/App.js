@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import Dropdown from './components/Dropdown/Dropdown';
 import Navbar from './components/Navbar/Navbar'
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -28,6 +26,8 @@ import LaGarela from './pages/Cigars/LaGarela'
 import LaFlorDominicana from './pages/Cigars/LaFlorDominicana';
 import Ciboa from './pages/Cigars/Ciboa';
 import SingleBlogPage from './pages/SingleBlogPage';
+
+import Footer from './components/Footer/Footer';
 
 
 
@@ -55,7 +55,7 @@ function App() {
       <Route path="/contacts" component={Contacts} />
       <Route path='/cigar/padron' component={Padron} />
       <Route path="/cigar/arturo-fuente" component={ArturoFuente} />
-      <Route path="/cigar/olivia" component={Olivia} />
+      <Route path="/cigar/oliva" component={Olivia} />
       <Route path="/cigar/nub" component={Nub} />
       <Route path="/cigar/cain" component={Cain} />
       <Route path="/cigar/la-garela" component={LaGarela} />
@@ -63,6 +63,7 @@ function App() {
       <Route path="/cigar/ciboa" component={Ciboa} />
       <Route path="*" component={ErrorPage} />
     </Switch>
+    <Footer />
 
   </>
 }

@@ -19,8 +19,8 @@ export const menuData = [
     },
     {
         id: 4,
-        title: 'Olivia',
-        link: '/cigar/olivia',
+        title: 'Oliva',
+        link: '/cigar/oliva',
         showMenu: false,
     },
     {
