@@ -12,7 +12,6 @@ import HomePage from './pages/HomePage';
 import Coffe from './pages/Coffe';
 import Beer from './pages/Beer';
 import Events from './pages/Events';
-import Contacts from './pages/Contacts';
 import ErrorPage from './pages/Errorpage';
 import ScrollToTop from "./SctrollToTheTop";
 
@@ -28,6 +27,7 @@ import Ciboa from './pages/Cigars/Ciboa';
 import SingleBlogPage from './pages/SingleBlogPage';
 
 import Footer from './components/Footer/Footer';
+import SingleCigarPadron from './pages/Cigars/SingleCigarPadron';
 
 
 
@@ -52,8 +52,8 @@ function App() {
       <Route path="/blog/:id" component={SingleBlogPage}>
         {/* <SingleBlogPage /> */}
       </Route>
-      <Route path="/contacts" component={Contacts} />
       <Route path='/cigar/padron' component={Padron} />
+      <Route path='/padron/:id' component={SingleCigarPadron} />
       <Route path="/cigar/arturo-fuente" component={ArturoFuente} />
       <Route path="/cigar/oliva" component={Olivia} />
       <Route path="/cigar/nub" component={Nub} />

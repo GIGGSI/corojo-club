@@ -77,10 +77,10 @@ padding-top:3rem;
 
 `
 
-const BtnWrap = styled.div`
-display:flex;
-justify-content:center;;
-`
+// const BtnWrap = styled.div`
+// display:flex;
+// justify-content:center;;
+// `
 
 
 

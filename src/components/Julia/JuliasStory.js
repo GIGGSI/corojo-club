@@ -5,7 +5,6 @@ import { juliasData } from '../../data/JuliasData'
 
 
 const JuliasStory = () => {
-    console.log(juliasData)
     return <Section>
         <HeaderSections>
             <h2>Запознай се с Julia</h2>

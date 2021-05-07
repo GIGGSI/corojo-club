@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 import img__bg from '../images/bg_4.jpg'
 import SectionHero from '../components/Globals/SectionHero/SectionHero'
 import Banner from '../components/Globals/SectionHero/Banner'
-import { setColor, setBackground } from '../stlyes';
+import { setColor} from '../stlyes';
 import { Link } from 'react-router-dom'
 
 
@@ -56,7 +56,7 @@ const SingleBlogPage = () => {
                 </SingleBlogSection>
                 <Windgets>
                     <Heading>
-                        <h4>Recomended blogs</h4>
+                        <h4>Препоръчани статии</h4>
 
                     </Heading>
 

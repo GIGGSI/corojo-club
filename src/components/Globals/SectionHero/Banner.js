@@ -41,7 +41,7 @@ ${setLetterSpacing(3)};
 color:${setColor.mainWhite};
 
 h1{
-    text-transform:capitalize;
+    /* text-transform:capitalize; */
     font-size:${setRem(48)};
     color:${setColor.primaryColor};
     span {

@@ -50,7 +50,6 @@ align-items:center;
 text-align:center;
 margin: 0 0.5rem;
 
-/* padding:0rem 0.3rem; */
 a {
     text-decoration:none;
 }
@@ -80,8 +79,7 @@ img {
 img {
     min-width:26rem;
 }
-/* margin-top:5rem;
-grid-row-gap:3rem; */
+
 }
 `
 

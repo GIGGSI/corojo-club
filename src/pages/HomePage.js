@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../components/Hero';
 import img from '../images/bg_2.jpg'
+
 
 import OurStory from '../components/OurStory/OurStory';
 import InfoSection from '../components/Info/InfoSection';
@@ -14,6 +15,7 @@ import BrandsSection from '../components/BrandsSection/BrandsSection';
 import RecommenddBlogs from '../components/RecommendedBlogs/RecommenddBlogs';
 
 const HomePage = () => {
+
     return <>
         <Hero slides={SliderData} />
         <OurStory {...ourStoryData} />

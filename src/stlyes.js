@@ -9,6 +9,10 @@ export const setColor = {
     lightGray: '#f7f7f7'
 }
 
+export const setTransition = {
+    mainTransition: 'all 0.3s linear;'
+}
+
 export const setFont = {
     main: "font-family:'Montserrat'",
     slanted: "font-family:'Comfortaa'",

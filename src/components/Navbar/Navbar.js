@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components/macro'
 import { Link } from 'react-router-dom'
-import { Button } from './Button'
+
 import { FaBars } from 'react-icons/fa'
 import Dropdown from './Dropdown';
 import './Navbar.css'
@@ -45,6 +45,8 @@ display:flex;
 align-items:center;
 /* margin-right:-48px; */
 
+
+
 @media screen and (max-width:768px) {
     display:none;
 }
@@ -53,6 +55,11 @@ align-items:center;
 const NavMenuLinks = styled(Link)`
 ${NavLink}
 text-transform:uppercase;
+padding-bottom:10px;
+/* margin:1rem 0; */
+&:hover {
+    border-bottom:1px solid white;
+}
 
 `
 
@@ -106,7 +113,7 @@ const Navbar = ({ toggle, className }) => {
             <NavMenuLinks to='#' onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}>
                 Cigars
-                {dropdown && <Dropdown />}
+                {dropdown && <Dropdown />} 
             </NavMenuLinks>
             <NavMenuLinks to='/coffe' >
                 Coffe

@@ -1,11 +1,10 @@
 .dropdown-menu {
-
-  width: 200px;
+  /* width: 200px; */
   position: absolute;
-  top: 80px;
+  top: 47px;
   list-style: none;
   text-align: start;
-  margin-top: -0.1rem;
+ 
 }
 
 .dropdown-menu li {

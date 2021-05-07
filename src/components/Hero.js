@@ -55,12 +55,12 @@ object-fit:cover;
     bottom: 0vh;
     left:0;
     overflow:hidden;
-    opacity:0.4;
-    background:linear-gradient(0deg,
+    /* opacity:0.4; */
+    /* background:linear-gradient(0deg,
     rgba(0,0,0,0.2) 0%,
     rgba(0,0,0,0.2) 50%,
     rgba(0,0,0,0.6) 100%
-    )
+    ) */
 
 }
 `
@@ -78,13 +78,13 @@ h1{
     font-size:clamp(1rem,8vw,2rem);
     font-weight:400;
     text-transform:uppercase;
-    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
-    text-align:left;
+    text-shadow:5px 5px 20px rgba(0,0,0,1);
+    text-align:center;
     margin-bottom:0.8rem;
 }
 p{
     margin-bottom:1.2rem;
-    text-shadow:0px 0px 20px rgba(0,0,0,0.4);
+    text-shadow:0px 0px 20px rgba(0,0,0,0.8);
 
 }
 `;
@@ -142,7 +142,7 @@ const Hero = ({ slides }) => {
             setCurrent(current => (current === length - 1 ? 0 : current + 1))
         }
 
-        timeout.current = setTimeout(nextSlide, 4000);
+        timeout.current = setTimeout(nextSlide, 5000);
 
         return function () {
             if (timeout.current) {
@@ -184,14 +184,7 @@ const Hero = ({ slides }) => {
                                 />
                                 <HeroContent>
                                     <h1>{slide.title}</h1>
-                                    <p>{slide.price}</p>
-                                    <Button to={slide.path}
-                                        primary="true"
-                                        css={`max-width:160px;`}
-                                    >
-                                        {slide.label}
-                                        <Arrow />
-                                    </Button>
+                                    
                                 </HeroContent>
                             </HeroSlider>
                         )}

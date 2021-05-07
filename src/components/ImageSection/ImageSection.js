@@ -17,7 +17,7 @@ background: url(${imgBg}) no-repeat;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 3rem;
-  color: ${setColor.mainWhite};
+  color: ${setColor.mainBlack};
   margin-bottom:2rem;
 }
 `
