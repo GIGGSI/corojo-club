@@ -1,31 +1,33 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router'
+import { ArturoFuenteData } from '../../data/ArturoFuente'
 import SectionSinglePageCigar from '../../components/Globals/SectionHero/SectionSinglePageCigar'
-import { PadronData } from '../../data/Padron'
 import Banner from '../../components/Globals/SectionHero/Banner'
-import styled from 'styled-components'
-import { media, setColor, setFlex, setFont } from '../../stlyes'
 
+import styled from 'styled-components'
+import { setColor, media, setFont } from '../../stlyes'
 import Box from './Box'
 
 
-const SingleCigarPadron = () => {
-    const [data, setData] = useState(PadronData)
+const SingleCigarArturoFuente = () => {
+    const [data, setData] = useState(ArturoFuenteData);
     const [showInfo, setShowInfo] = useState(false);
-    const { id } = useParams();
+
+    const { id } = useParams()
 
     const cigar = data.filter((item) => item.id === +id);
 
     if (!id) {
-        return <h1>Loading...</h1>
+        return <h1>Loading....</h1>
+
     }
 
     return <>
         {cigar.map((item) => {
-
             const { id, title, subTitle, imgUrl, imagBg, paragraphOne, paragraphTwo, cigars, closedBox, openBox } = item;
+
             return <SingleCigarWrapper key={id}>
-                <SectionSinglePageCigar img={imagBg} >
+                <SectionSinglePageCigar img={imagBg}>
                     <Banner title={title} />
                 </SectionSinglePageCigar>
                 <CigarInfo>
@@ -37,23 +39,24 @@ const SingleCigarPadron = () => {
                 {cigars.map((cigar) => {
 
                     return <CigarWrapper key={cigar.id}>
+                        <img src={cigar.img}
+                            alt={cigar.title}
+                            className="img__cigar" />
 
-                        <img src={cigar.img} 
-                        alt={cigar.title} 
-                        className="img__cigar" />
-
-                        <h3>{cigar.title} 
-                          <span>{cigar.subtitle}</span> </h3>
+                        <h3>{cigar.title}
+                            <span>{cigar.subtitle}</span> </h3>
 
                         <Box {...cigar} />
                     </CigarWrapper>
                 })}
 
+
             </SingleCigarWrapper>
+
         })}
+
     </>
 }
-
 const SingleCigarWrapper = styled.div` `
 
 const CigarInfo = styled.div`
@@ -115,4 +118,5 @@ img {
 }`}
 
   `
-export default SingleCigarPadron
+
+export default SingleCigarArturoFuente

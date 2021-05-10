@@ -25,7 +25,7 @@ const Box = ({ title, closedBox, openBox }) => {
 
         </BoxImgWrapper> : null}
         {showInfo ? <div className="text">
-            <h4>Padron Series {title} съдържа 26 къса в кутията </h4>
+            <h4>Серията {title} съдържа 26 къса в кутията </h4>
             <h4>Предлага се в натурален и мадуро</h4>
         </div> : null}
 

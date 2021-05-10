@@ -28,6 +28,7 @@ import SingleBlogPage from './pages/SingleBlogPage';
 
 import Footer from './components/Footer/Footer';
 import SingleCigarPadron from './pages/Cigars/SingleCigarPadron';
+import SingleCigarArturoFuente from './pages/Cigars/SingleCigarArturoFuente';
 
 
 
@@ -55,6 +56,7 @@ function App() {
       <Route path='/cigar/padron' component={Padron} />
       <Route path='/padron/:id' component={SingleCigarPadron} />
       <Route path="/cigar/arturo-fuente" component={ArturoFuente} />
+      <Route path='/arturo-fuente/:id' component={SingleCigarArturoFuente} />
       <Route path="/cigar/oliva" component={Olivia} />
       <Route path="/cigar/nub" component={Nub} />
       <Route path="/cigar/cain" component={Cain} />

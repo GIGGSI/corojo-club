@@ -5,7 +5,7 @@ import Banner from '../../components/Globals/SectionHero/Banner'
 import SectionInfo from '../../components/Globals/SectionHero/SectionInfo'
 import { PadronData } from '../../data/Padron.js'
 import styled from 'styled-components'
-import { setColor, setTransition } from '../../stlyes'
+import { setColor } from '../../stlyes'
 import { Link } from 'react-router-dom'
 
 const Padron = () => {

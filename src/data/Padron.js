@@ -189,7 +189,31 @@ import No40 from '../images/padron/1926/No40.jpg'
 import No40Open from '../images/padron/1926/No40Open.jpg'
 import No40Closed from '../images/padron/1926/No40Closed.jpg'
 
+//Family reserved
+import No44 from '../images/padron/Family/No44.jpg'
+import No44Open from '../images/padron/Family/No44Open.jpg'
+import No44Closed from '../images/padron/Family/No44Closed.jpg'
 
+import No45 from '../images/padron/Family/No45.jpg'
+import No45Open from '../images/padron/Family/No45Open.jpg'
+import No45Closed from '../images/padron/Family/No45Closed.jpg'
+
+import No46 from '../images/padron/Family/No46.jpg'
+import No46Open from '../images/padron/Family/No46Open.jpg'
+import No46Closed from '../images/padron/Family/No46Closed.jpg'
+
+import No85 from '../images/padron/Family/No85.jpg'
+import No85Open from '../images/padron/Family/No85Open.jpg'
+import No85Closed from '../images/padron/Family/No85Closed.jpg'
+
+
+import No50 from '../images/padron/Family/No50.jpg'
+import No50Open from '../images/padron/Family/No50Open.jpg'
+import No50Closed from '../images/padron/Family/No50Closed.jpg'
+
+import Padron_50 from '../images/padron/50th/Padron_50.jpg'
+import Padron_50Open from '../images/padron/50th/Padron_50Open.jpg'
+import Padron_50Closed from '../images/padron/50th/Padron_50Closed.jpg'
 
 import Padron from '../pages/Cigars/Padron';
 
@@ -593,7 +617,50 @@ export const PadronData = [
         Предлага се както в естествена, така и в мадуро обвивка, тютюнът отлежава десет години, след което се смесва, за да създаде изключително гладък, сложен, балансиран и плътен вкус. За ваша защита на всяка пура се прилага двойна лента с индивидуално номериран гаранционен етикет, за да се предпази от фалшифициране.
         `,
         imgUrl: PadronFR_No45,
-        imagBg: Padron_FamReserev
+        imagBg: Padron_FamReserev,
+        cigars: [
+            {
+                id: 1,
+                title: 'No 44',
+                subtitle: '52 x 6',
+                img: No44,
+                openBox: No44Open,
+                closedBox: No44Closed,
+            },
+            {
+                id: 2,
+                title: 'No 45',
+                subtitle: '52 x 6   2009 Cigar Aficionado Cigar of The Year',
+                img: No45,
+                openBox: No45Open,
+                closedBox: No45Closed,
+            },
+            {
+                id: 3,
+                title: 'No 46',
+                subtitle: '56 x 5 1/2',
+                img: No46,
+                openBox: No46Open,
+                closedBox: No46Closed,
+            },
+            {
+                id: 4,
+                title: 'No 85',
+                subtitle: '50 x 5 1/4',
+                img: No85,
+                openBox: No85Open,
+                closedBox: No85Closed,
+            },
+            {
+                id: 5,
+                title: 'No 50',
+                subtitle: '54 x 5',
+                img: No50,
+                openBox: No50Open,
+                closedBox: No50Closed,
+            }
+
+        ]
     },
     {
         id: 6,
@@ -605,6 +672,19 @@ export const PadronData = [
         paragraphTwo: `
         Уникалната смес е с плътно тяло, сложна, но балансирана, създадена изключително за честване на нашата 50-годишнина. Отлежала минимум десет години, пурата 50th Anniversary се предлага в отгледана от слънце естествена или мадуро обвивка. За наличност се свържете с местния оторизиран търговец на Padrón.            `,
         imgUrl: Padron50thAnn,
-        imagBg: Padron_50Anniversary
+        imagBg: Padron_50Anniversary,
+        cigars: [
+            {
+                id: 1,
+                title: '50th Anniversary ',
+                subtitle: '52 x 6 1/2  50 cigar humidor',
+                img: Padron_50,
+                openBox: Padron_50Open,
+                closedBox: Padron_50Closed,
+            }
+
+
+
+        ]
     }
 ]
