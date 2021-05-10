@@ -9,16 +9,15 @@ import CasaCubaBG from '../images/AF/CasaCubaBG.jpg'
 import GranReserva from '../images/AF/canones.png'
 import CanonesBG from '../images/AF/CanonesBG.jpg'
 
-import Padron50thAnn from '../images/padron/Padron50thAnn.png'
-import Damaso from '../images/padron/Damaso.png'
-import Padron_1964Ann from '../images/padron/Padron_1964AnnSeries_Hm.png';
-import Padron1926 from '../images/padron/Padron1926.png'
-import PadronFR_No45 from '../images/padron/PadronFR_No45.png'
-import Padron_Damaso from '../images/padron/Padron_Damaso.jpg'
-import Padron_1964 from '../images/padron/Padron_1964.jpg'
-import Padron_1926 from '../images/padron/Padron_1926.jpg'
-import Padron_FamReserev from '../images/padron/Padron_FamReserev.jpg'
-import Padron_50Anniversary from '../images/padron/Padron_50Anniversary.jpg'
+
+import Anjelo from '../images/AF/anjelo.png'
+import AnjeloBG from '../images/AF/AnjeloBG.jpg'
+
+import FF from '../images/AF/FF.png'
+import FfBG from '../images/AF/FfBG.jpg'
+
+import P20th from '../images/AF/20th.png'
+import P20thBG from '../images/AF/20thBG.jpg'
 
 // Don Carlos 
 import President from '../images/AF/Don Carlos/president.png'
@@ -46,7 +45,6 @@ import belicosoOpen from '../images/AF/Don Carlos/belicosoOpen.jpg'
 import belicosoClosed from '../images/AF/Don Carlos/belicosoClosed.jpg'
 
 
-
 //Casa Cuba
 import divine from '../images/AF/Casa Cuba/divine.png'
 import DivineOpen from '../images/AF/Casa Cuba/DivineOpen.jpg'
@@ -69,7 +67,6 @@ import quatroOpen from '../images/AF/Casa Cuba/quatroOpen.jpg'
 import quatroClosed from '../images/AF/Casa Cuba/quatroClosed.jpg'
 
 
-
 //Gran Reeserva
 import canones from '../images/AF/GR/canones.png'
 import canonesOpen from '../images/AF/GR/canonesOpen.jpg'
@@ -79,114 +76,91 @@ import churchill from '../images/AF/GR/churchill.png'
 import churchillOpen from '../images/AF/GR/churchillOpen.jpg'
 import churchillClosed from '../images/AF/GR/churchillClosed.jpg'
 
+import No1 from '../images/AF/GR/No1.png'
+import No1Open from '../images/AF/GR/No1Open.jpg'
+import No1Closed from '../images/AF/GR/No1Closed.jpg'
+
+import imperial from '../images/AF/GR/imperial.png'
+import imperialOpen from '../images/AF/GR/imperialOpen.jpg'
+import imperialClosed from '../images/AF/GR/imperialClosed.jpg'
+
+import spanish from '../images/AF/GR/spanish.png'
+import spanishOpen from '../images/AF/GR/spanishOpen.jpg'
+import spanishClosed from '../images/AF/GR/spanishClosed.jpg'
+
+import fina from '../images/AF/GR/fina.png'
+import finaOpen from '../images/AF/GR/finaOpen.jpg'
+import finaClosed from '../images/AF/GR/finaClosed.jpg'
+
+// Anjelo
+import No49 from '../images/AF/Anjelo/No49.png'
+import No49Open from '../images/AF/Anjelo/anjeloOpen.jpg'
+import No49Closed from '../images/AF/Anjelo/anjeloClosed.jpg'
+
+import No48 from '../images/AF/Anjelo/No48.png'
+import No48Open from '../images/AF/Anjelo/No48Open.jpg'
+import No48Closed from '../images/AF/Anjelo/No48Closed.jpg'
+
+import No888 from '../images/AF/Anjelo/No88.png'
+import No888Open from '../images/AF/Anjelo/No888Open.jpg'
+import No888Closed from '../images/AF/Anjelo/No888Closed.jpg'
+
+import No60 from '../images/AF/Anjelo/No60.png'
+import No60Open from '../images/AF/Anjelo/No60Open.jpg'
+import No60Closed from '../images/AF/Anjelo/No60Closed.jpg'
+
+import No55 from '../images/AF/Anjelo/No55.png'
+import No55Open from '../images/AF/Anjelo/No55Open.jpg'
+import No55Closed from '../images/AF/Anjelo/No55Closed.jpg'
+
+import No77 from '../images/AF/Anjelo/No77.png'
+import No77Open from '../images/AF/Anjelo/No77Open.jpg'
+import No77Closed from '../images/AF/Anjelo/No77Closed.jpg'
+
+//Fuente Fuente OpusX
+import doubleCorona from '../images/AF/FF/doubleCorona.png'
+import doubleCoronaOpen from '../images/AF/FF/doubleCoronaOpen.jpg'
+import doubleCoronaClosed from '../images/AF/FF/doubleCoronaClosed.jpg'
+
+import reserva from '../images/AF/FF/reserva.png'
+import reservaOpen from '../images/AF/FF/rservaOpen.jpg'
+import reservaCLosed from '../images/AF/FF/reservaClosed.jpg'
+
+import PerfNo2 from '../images/AF/FF/PerfNo2.png'
+import PerfNo2Open from '../images/AF/FF/PerfNo2Open.jpg'
+import PerfNo2Closed from '../images/AF/FF/PerfNo2Closed.jpg'
+
+import X from '../images/AF/FF/X.png'
+import XOpen from '../images/AF/FF/XOpen.jpg'
+import XClosed from '../images/AF/FF/XClosed.jpg'
+
+import lancero from '../images/AF/FF/lancero.png'
+import lanceroOpen from '../images/AF/FF/lanceroOpen.jpg'
+import lanceroClosed from '../images/AF/FF/lanceroClosed.jpg'
+
+import no77Shark from '../images/AF/FF/no77Shark.png'
+import no77SharkOpen from '../images/AF/FF/no77SharkOpen.jpg'
+import no77SharkClosed from '../images/AF/FF/no77SharkClosed.jpg'
+
+//20th Anniversary
+
+import gods from '../images/AF/20th/gods.png'
+import godsOpen from '../images/AF/20th/godsOpen.jpg'
+import godsClosed from '../images/AF/20th/godsClosed.jpg'
+
+import power from '../images/AF/20th/power.png'
+import powerOpen from '../images/AF/20th/powerOpen.png'
+import powerClosed from '../images/AF/20th/powerClosed.jpg'
+
+import father from '../images/AF/20th/father.png'
+import fatherOpen from '../images/AF/20th/fatherOpen.png'
+import fatherClosed from '../images/AF/20th/fatherClosed.jpg'
+
+import belive from '../images/AF/20th/father.png'
+import beliveOpen from '../images/AF/20th/beliveOpen.png'
+import beliveClosed from '../images/AF/20th/beliveClosed.jpg'
 
 
-import Piramide from '../images/padron/1964/Piramide.jpg';
-import PiramideOpen from '../images/padron/1964/PiramideOpen.jpg'
-import PiramideClosed from '../images/padron/1964/PiramideClosed.jpg'
-
-import Monarca from '../images/padron/1964/Monarca.jpg';
-import MonarcaOpen from '../images/padron/1964/MonarcaOpen.jpg'
-import MonarcaClosed from '../images/padron/1964/MonarcaClosed.jpg'
-
-import Superior from '../images/padron/1964/Superior.jpg';
-import SuperiorOpen from '../images/padron/1964/SuperiorOpen.jpg'
-import SuperiorClosed from '../images/padron/1964/SuperiorClosed.jpg'
-
-import No4 from '../images/padron/1964/No4.jpg';
-import No4Open from '../images/padron/1964/No4Open.jpg'
-import No4Closed from '../images/padron/1964/No4Closed.jpg'
-
-import Torpedo from '../images/padron/1964/Torpedo.jpg';
-import TorpedoOpen from '../images/padron/1964/TorpedoOpen.jpg'
-import TorpedoClosed from '../images/padron/1964/TorpedoClosed.jpg'
-
-import Imperial from '../images/padron/1964/Imperial.jpg';
-import ImperialOpen from '../images/padron/1964/ImperialOpen.jpg'
-import ImperialClosed from '../images/padron/1964/ImperialClosed.jpg'
-
-import Corona from '../images/padron/1964/Corona.jpg';
-import CoronaOpen from '../images/padron/1964/CoronaOpen.jpg'
-import CoronaClosed from '../images/padron/1964/CoronaClosed.jpg'
-
-import Presidente from '../images/padron/1964/Presidente.jpg';
-import PresidenteOpen from '../images/padron/1964/PresidenteOpen.jpg'
-import PresidenteClosed from '../images/padron/1964/PresidenteClosed.jpg'
-
-import Exclusivo from '../images/padron/1964/Exclusivo.jpg';
-import ExclusivoOpen from '../images/padron/1964/ExclusivoOpen.jpg'
-import ExclusivoClosed from '../images/padron/1964/ExclusivoClosed.jpg'
-
-import Belicoso from '../images/padron/1964/Belicoso.jpg';
-import BelicosoOpen from '../images/padron/1964/BelicosoOpen.jpg'
-import BelicosoClosed from '../images/padron/1964/BelicosoClosed.jpg'
-
-import Toro from '../images/padron/1964/Toro.jpg';
-import ToroOpen from '../images/padron/1964/ToroOpen.jpg'
-import ToroClosed from '../images/padron/1964/ToroClosed.jpg'
-
-import Soberano from '../images/padron/1964/Soberano.jpg';
-import SoberanoOpen from '../images/padron/1964/SoberanoOpen.jpg'
-import SoberanoClosed from '../images/padron/1964/SoberanoClosed.jpg'
-
-import Principe from '../images/padron/1964/Principe.jpg';
-import PrincipeOpen from '../images/padron/1964/PrincipeOpen.jpg'
-import PrincipeClosed from '../images/padron/1964/PrincipeClosed.jpg'
-
-import Hermoso from '../images/padron/1964/Hermoso.jpg';
-import HermosoOpen from '../images/padron/1964/HermosoOpen.jpg'
-import HermosoClosed from '../images/padron/1964/HermosoClosed.jpg'
-
-// 1926
-import No1 from '../images/padron/1926/No1.jpg'
-import No1Open from '../images/padron/1926/No1Open.jpg'
-import No1Closed from '../images/padron/1926/No1Closed.jpg'
-
-import No9 from '../images/padron/1926/No9.jpg'
-import No9Open from '../images/padron/1926/No9Open.jpg'
-import No9Closed from '../images/padron/1926/No9Closed.jpg'
-
-// import No2 from '../images/padron/1926/No2.jpg'
-// import No2Open from '../images/padron/1926/No2Open.jpg'
-// import No2Closed from '../images/padron/1926/No2Closed.jpg'
-
-import No6 from '../images/padron/1926/No6.jpg'
-import No6Open from '../images/padron/1926/No6Open.jpg'
-import No6Closed from '../images/padron/1926/No6Closed.jpg'
-
-import No35 from '../images/padron/1926/No35.jpg'
-import No35Open from '../images/padron/1926/No35Open.jpg'
-import No35Closed from '../images/padron/1926/No35Closed.jpg'
-
-import No40 from '../images/padron/1926/No40.jpg'
-import No40Open from '../images/padron/1926/No40Open.jpg'
-import No40Closed from '../images/padron/1926/No40Closed.jpg'
-
-//Family reserved
-import No44 from '../images/padron/Family/No44.jpg'
-import No44Open from '../images/padron/Family/No44Open.jpg'
-import No44Closed from '../images/padron/Family/No44Closed.jpg'
-
-import No45 from '../images/padron/Family/No45.jpg'
-import No45Open from '../images/padron/Family/No45Open.jpg'
-import No45Closed from '../images/padron/Family/No45Closed.jpg'
-
-import No46 from '../images/padron/Family/No46.jpg'
-import No46Open from '../images/padron/Family/No46Open.jpg'
-import No46Closed from '../images/padron/Family/No46Closed.jpg'
-
-import No85 from '../images/padron/Family/No85.jpg'
-import No85Open from '../images/padron/Family/No85Open.jpg'
-import No85Closed from '../images/padron/Family/No85Closed.jpg'
-
-
-import No50 from '../images/padron/Family/No50.jpg'
-import No50Open from '../images/padron/Family/No50Open.jpg'
-import No50Closed from '../images/padron/Family/No50Closed.jpg'
-
-import Padron_50 from '../images/padron/50th/Padron_50.jpg'
-import Padron_50Open from '../images/padron/50th/Padron_50Open.jpg'
-import Padron_50Closed from '../images/padron/50th/Padron_50Closed.jpg'
 
 
 export const ArturoFuenteData = [
@@ -330,171 +304,203 @@ export const ArturoFuenteData = [
             },
             {
                 id: 3,
-                title: 'Piramide',
-                subtitle: '52 x 42 x 6 7/8',
-                img: Piramide,
-                openBox: PiramideOpen,
-                closedBox: PiramideClosed,
-            },
-            {
-                id: 4,
-                title: 'Monarca',
-                subtitle: '46 x 6 1/2',
-                img: Monarca,
-                openBox: MonarcaOpen,
-                closedBox: MonarcaClosed,
-            },
-            {
-                id: 5,
-                title: 'Superior',
-                subtitle: '42 x 6 1/2',
-                img: Superior,
-                openBox: SuperiorOpen,
-                closedBox: SuperiorClosed,
-            },
-            {
-                id: 6,
-                title: 'No 4',
-                subtitle: '60 x 6 1/2',
-                img: No4,
-                openBox: No4Open,
-                closedBox: No4Closed,
-            },
-         
-        ]
-    },
-    {
-        id: 4,
-        title: 'Padrón 1926 Serie',
-        subTitle: 'Наградената с награди серия Padrón 1926 премиерира през 2002 г. в чест на 75-ия рожден ден на José O. Padrón, с десет налични размера. Продължавайки нашата традиция, тази серия се предлага в пресован формат. Тези пури са ръчно изработени от тютюн на възраст пет години, след което се смесват, за да създадат изключително гладък, сложен, балансиран и плътен вкус. За защита на всяка пура се прилага двойна лента с индивидуално номериран гаранционен етикет, за да се предпази от фалшифициране. Предлага се както в естествени, така и в мадуро опаковки.',
-        imgUrl: Padron1926,
-        imagBg: Padron_1926,
-        cigars: [
-            {
-                id: 1,
-                title: 'No 1',
-                subtitle: '54 x 6 3/4',
+                title: 'Selecction Privada No 1',
+                subtitle: '44 (17mm)',
                 img: No1,
                 openBox: No1Open,
                 closedBox: No1Closed,
             },
             {
-                id: 2,
-                title: 'No 9',
-                subtitle: '56 x 5 1/4   2007 Cigar Aficionado Cigar of The Year',
-                img: No9,
-                openBox: No9Open,
-                closedBox: No9Closed,
-            },
-            {
-                id: 3,
-                title: 'No 2',
-                subtitle: '52 x 5 1/2',
-                img: No2,
-                openBox: No2Open,
-                closedBox: No2Closed,
-            },
-            {
                 id: 4,
-                title: 'No 6',
-                subtitle: '50 x 4 3/4',
-                img: No6,
-                openBox: No6Open,
-                closedBox: No6Closed,
+                title: 'Corona Imperial',
+                subtitle: '46 (18mm)',
+                img: imperial,
+                openBox: imperialOpen,
+                closedBox: imperialClosed,
             },
             {
                 id: 5,
-                title: 'No 35',
-                subtitle: '48 x 4',
-                img: No35,
-                openBox: No35Open,
-                closedBox: No35Closed,
+                title: 'Spanish Lonsdale',
+                subtitle: '42 (17mm)',
+                img: spanish,
+                openBox: spanishOpen,
+                closedBox: spanishClosed,
             },
             {
                 id: 6,
-                title: 'No 40',
-                subtitle: '54 x 6 1/2   2004 Cigar Aficionado Cigar of The Year',
-                img: No40,
-                openBox: No40Open,
-                closedBox: No40Closed,
+                title: 'FLor Fina',
+                subtitle: '47 (19mm)',
+                img: fina,
+                openBox: finaOpen,
+                closedBox: finaClosed,
+            },
+
+        ]
+    },
+    {
+        id: 4,
+        title: 'Anjelo',
+        subTitle: 'Богатите листа от обвивка на мадуро, отлежали в бъчви с коняк, правят пурата Arturo Fuente Añejo уникален дим. Въпреки че тази линия се отличава с няколко различни размера, тя е дом на една от най-известните фигури в света, No. 77 или Shark, както е известна.',
+        paragraphOne: `
+        Акулата е първата пула с торпедна форма, някога навита, която преминава от закръглена форма на парежо до квадратна преса. Тази пура Añejo е особено рядка.
+        `,
+        imgUrl: Anjelo,
+        imagBg: AnjeloBG,
+        cigars: [
+            {
+                id: 1,
+                title: 'No 49',
+                subtitle: '19 (19mm)',
+                img: No49,
+                openBox: No49Open,
+                closedBox: No49Closed,
+            },
+            {
+                id: 2,
+                title: 'No 48',
+                subtitle: '48 (19mm)',
+                img: No48,
+                openBox: No48Open,
+                closedBox: No48Closed,
+            },
+            {
+                id: 3,
+                title: 'No 888',
+                subtitle: '44 (17mm)',
+                img: No888,
+                openBox: No888Open,
+                closedBox: No888Closed,
+            },
+            {
+                id: 4,
+                title: 'No 60',
+                subtitle: '48 (19mm)',
+                img: No60,
+                openBox: No60Open,
+                closedBox: No60Closed,
+            },
+            {
+                id: 5,
+                title: 'No 55',
+                subtitle: '55 (22mm)',
+                img: No55,
+                openBox: No55Open,
+                closedBox: No55Closed,
+            },
+            {
+                id: 6,
+                title: 'No 77 Shark',
+                subtitle: '50/64 (20/25mm)',
+                img: No77,
+                openBox: No77Open,
+                closedBox: No77Closed,
             }
         ]
     },
     {
         id: 5,
-        title: 'Padrón Family Reserve',
-        subTitle: 'Веднъж изключителна за Padrón’s, тази изключителна, индивидуално ръчно изработена поредица означава специални дати за семейни годишнини. Предлагайки пет високо оценени селекции, No. 44, 45, 46, 85 и 50 са красиво опаковани в десет броя кутии.',
+        title: 'Fuente Fuente Opus X',
+        subTitle: 'Сгушен в богатата вулканична почва на Доминиканската република, се намира Шато де ла Фуенте, дом на най-изисканата пура на нашето време, желаният Fuente Fuente OpusX.',
         paragraphOne: `
-        Предлага се както в естествена, така и в мадуро обвивка, тютюнът отлежава десет години, след което се смесва, за да създаде изключително гладък, сложен, балансиран и плътен вкус. За ваша защита на всяка пура се прилага двойна лента с индивидуално номериран гаранционен етикет, за да се предпази от фалшифициране.
-        `,
-        imgUrl: PadronFR_No45,
-        imagBg: Padron_FamReserev,
+        Богатите на минерали почви на Доминиканската република, считани някога за неподходящи за опаковане на тютюн, никога не са срещали експертизата и упоритостта на семейство Фуенте. Заедно те култивираха великолепен тютюн, който се превърна в основата на известния Fuente Fuente OpusX, първият доминикански пуро в историята.       
+         `,
+        paragraphTwo: `
+         Днес Fuente Fuente OpusX се счита за върха на съвършенството на пурите и стандарт, по който се измерват всички пури. Уникалната комбинация от тютюни Fuente произвежда вкусове както гладки, така и смели, в хармония със сладката трайна пълнота на ексклузивния тютюн за обвивка Fuente Fuente OpusX. Безупречна конструкция, изискан вкус и век на майсторство и традиция.
+         `,
+        imgUrl: FF,
+        imagBg: FfBG,
         cigars: [
             {
                 id: 1,
-                title: 'No 44',
-                subtitle: '52 x 6',
-                img: No44,
-                openBox: No44Open,
-                closedBox: No44Closed,
+                title: 'Double Corona',
+                subtitle: '49 (19mm)',
+                img: doubleCorona,
+                openBox: doubleCoronaOpen,
+                closedBox: doubleCoronaClosed,
             },
             {
                 id: 2,
-                title: 'No 45',
-                subtitle: '52 x 6   2009 Cigar Aficionado Cigar of The Year',
-                img: No45,
-                openBox: No45Open,
-                closedBox: No45Closed,
+                title: `Reserva D'Chateau`,
+                subtitle: '48 (19mm)',
+                img: reserva,
+                openBox: reservaOpen,
+                closedBox: reservaCLosed,
             },
             {
                 id: 3,
-                title: 'No 46',
-                subtitle: '56 x 5 1/2',
-                img: No46,
-                openBox: No46Open,
-                closedBox: No46Closed,
+                title: 'Perfecxion No 2',
+                subtitle: '52 (21mm)',
+                img: PerfNo2,
+                openBox: PerfNo2Open,
+                closedBox: PerfNo2Closed,
             },
             {
                 id: 4,
-                title: 'No 85',
-                subtitle: '50 x 5 1/4',
-                img: No85,
-                openBox: No85Open,
-                closedBox: No85Closed,
+                title: 'Perfecxion X',
+                subtitle: '48 (19mm)',
+                img: X,
+                openBox: XOpen,
+                closedBox: XClosed,
             },
             {
                 id: 5,
-                title: 'No 50',
-                subtitle: '54 x 5',
-                img: No50,
-                openBox: No50Open,
-                closedBox: No50Closed,
+                title: 'Petit Lancero',
+                subtitle: '39 (15mm)',
+                img: lancero,
+                openBox: lanceroOpen,
+                closedBox: lanceroClosed,
+            },
+            {
+                id: 6,
+                title: 'Perfecxion No77 Shark',
+                subtitle: '52 (21mm)',
+                img: no77Shark,
+                openBox: no77SharkOpen,
+                closedBox: no77SharkClosed,
             }
+
 
         ]
     },
     {
         id: 6,
-        title: 'Padron 50th Ann',
-        subTitle: 'Това ограничено производство и регистриран хумидор, издаден през 2014 г., отбелязва честването на нашата 50-годишнина с предложение от 1000 сандъка, всеки съдържащ 50 последователно номерирани пури.',
-        paragraphOne: `
-        Първоначалната версия предлагаше червени последователни серийни номера на пури, съответстващи на всеки номер на хумидор. Последващите издания са достъпни само като регистрирано зареждане с хумидор, имат черен цвят и не са последователни.
-        `,
-        paragraphTwo: `
-        Уникалната смес е с плътно тяло, сложна, но балансирана, създадена изключително за честване на нашата 50-годишнина. Отлежала минимум десет години, пурата 50th Anniversary се предлага в отгледана от слънце естествена или мадуро обвивка. За наличност се свържете с местния оторизиран търговец на Padrón.            `,
-        imgUrl: Padron50thAnn,
-        imagBg: Padron_50Anniversary,
+        title: '20th Anniversary',
+        subTitle: 'Исках да продуцирам нещо, което си спомних. Исках да се върна в детството си. Исках да се върна към най-щастливите моменти от живота си. Исках дядо ми да се гордее с мен. Исках баща ми да се гордее с мен, а децата ми някой ден да се гордеят с мен. Това беше нещо, което трябваше да направя.',
+        imgUrl: P20th,
+        imagBg: P20thBG,
         cigars: [
             {
                 id: 1,
-                title: '50th Anniversary ',
-                subtitle: '52 x 6 1/2  50 cigar humidor',
-                img: Padron_50,
-                openBox: Padron_50Open,
-                closedBox: Padron_50Closed,
-            }
-
-
+                title: `God's whisper`,
+                subtitle: '56 (22mm)',
+                img: gods,
+                openBox: godsOpen,
+                closedBox: godsClosed,
+            },
+            {
+                id: 2,
+                title: `Power of the dream`,
+                subtitle: '52 (21mm)',
+                img: power,
+                openBox: powerOpen,
+                closedBox: powerClosed,
+            },
+            {
+                id: 3,
+                title: `Father & Son`,
+                subtitle: '49 (19mm)',
+                img: father,
+                openBox: fatherOpen,
+                closedBox: fatherClosed,
+            },
+            {
+                id: 4,
+                title: `Belive`,
+                subtitle: '52 (21mm)',
+                img: belive,
+                openBox: beliveOpen,
+                closedBox: beliveClosed,
+            },
 
         ]
     }
