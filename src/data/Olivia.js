@@ -6,43 +6,37 @@ import vChurchil from '../images/Oliva/vChurchill.png'
 
 import O from '../images/Oliva/O.png'
 
-import GranReserva from '../images/AF/canones.png'
-import CanonesBG from '../images/AF/CanonesBG.jpg'
+import gChurchill from '../images/Oliva/gChurchil.png'
 
+import GRChurchill from '../images/Oliva/CRChurchill.png'
 
-import Anjelo from '../images/AF/anjelo.png'
-import AnjeloBG from '../images/AF/AnjeloBG.jpg'
+import MBChurchill from '../images/Oliva/MBChurchill.png'
 
-import FF from '../images/AF/FF.png'
-import FfBG from '../images/AF/FfBG.jpg'
-
-import P20th from '../images/AF/20th.png'
-import P20thBG from '../images/AF/20thBG.jpg'
 
 // The Serie V Melanio
- 
-import OlivaChurchill from '../images/Oliva/Melanio/Churchil.jpg'
+
+import OlivaChurchill from '../images/Oliva/Melanio/Churchil.png'
 import OlivaChurchillOpen from '../images/Oliva/Melanio/OlivaChurchilOpen.jpg'
 import OlivaChurchillClosed from '../images/Oliva/Melanio/OlivaChurchilClosed.jpg'
 
-import Toro from '../images/Oliva/Melanio/Toro.jpg'
+import Toro from '../images/Oliva/Melanio/Toro.png'
 import ToroOpen from '../images/Oliva/Melanio/ToroOpen.jpg'
 import ToroClosed from '../images/Oliva/Melanio/ToroClosed.jpg'
 
 
-import Figurado from '../images/Oliva/Melanio/Figurado.jpg'
+import Figurado from '../images/Oliva/Melanio/Figurado.png'
 import FiguradoOpen from '../images/Oliva/Melanio/FiguradoOpen.jpg'
 import FiguradoClosed from '../images/Oliva/Melanio/FiguradoClosed.jpg'
 
-import Torpedo from '../images/Oliva/Melanio/Torpedo.jpg'
+import Torpedo from '../images/Oliva/Melanio/Torpedo.png'
 import TorpedoOpen from '../images/Oliva/Melanio/TorpedoOpen.jpg'
 import TorpedoClosed from '../images/Oliva/Melanio/TorpedoClosed.jpg'
 
-import MaduroChurchill from '../images/Oliva/Melanio/MaduroChurchill.jpg'
+import MaduroChurchill from '../images/Oliva/Melanio/MaduroChurchill.png'
 import MaduroChurchillOpen from '../images/Oliva/Melanio/MaduroChurchillOpen.jpg'
 import MaduroChurchillClosed from '../images/Oliva/Melanio/MaduroChurchilClosed.jpg'
 
-import MaduroTorpedo from '../images/Oliva/Melanio/MaduroTorpedo.jpg'
+import MaduroTorpedo from '../images/Oliva/Melanio/MaduroTorpedo.png'
 import MaduroTorpedoOpen from '../images/Oliva/Melanio/MaduroTorpedoOpen.jpg'
 import MaduroTorpedoClosed from '../images/Oliva/Melanio/MaduroTorpedoClosed.jpg'
 
@@ -50,123 +44,119 @@ import MaduroTorpedoClosed from '../images/Oliva/Melanio/MaduroTorpedoClosed.jpg
 
 //The seria V
 
-import VChurchil from '../images/Oliva/V/vChurchill.jpg'
+import VChurchil from '../images/Oliva/V/vChurchill.png'
 import VChurchilOpen from '../images/Oliva/V/VChurchilOpen.jpg'
 import VChurchilClosed from '../images/Oliva/V/VChurchilClosed.jpg'
 
-import Lancero from '../images/Oliva/V/Lancero.jpg'
+import Lancero from '../images/Oliva/V/Lancero.png'
 import LanceroOpen from '../images/Oliva/V/LanceroOpen.jpg'
 import LanceroClosed from '../images/Oliva/V/LanceroClosed.jpg'
 
-import SFigurado from '../images/Oliva/V/Figurado.jpg'
+import SFigurado from '../images/Oliva/V/Figurado.png'
 import SFiguradoOpen from '../images/Oliva/V/FiguradoOpen.jpg'
 import SFiguradoClosed from '../images/Oliva/V/FiguradoClosed.jpg'
 
-import DoubleToro from '../images/Oliva/V/DoubleToro.jpg'
+import DoubleToro from '../images/Oliva/V/DoubleToro.png'
 import DoubleToroOpen from '../images/Oliva/V/DoubleToroOpen.jpg'
 import DoubleToroClosed from '../images/Oliva/V/DoubleToroClosed.jpg'
 
-import VTorpedo from '../images/Oliva/V/VTorpedo.jpg'
+import VTorpedo from '../images/Oliva/V/VTorpedo.png'
 import VTorpedoOpen from '../images/Oliva/V/VTorpedoOpen.jpg'
 import VTorpedoClosed from '../images/Oliva/V/VTorpedoClosed.jpg'
 
 
 //SERIE O
-import OChurchil from '../images/Oliva/O/Ochurchill.jpg'
+import OChurchil from '../images/Oliva/O/Ochurchill.png'
 import OChurchilOpen from '../images/Oliva/O/OchurchillOpen.jpg'
 import OChurchilClosed from '../images/Oliva/O/OchurchillClosed.jpg'
 
-import ODToro from '../images/Oliva/O/ODToro.jpg'
+import ODToro from '../images/Oliva/O/ODToro.png'
 import ODToroOpen from '../images/Oliva/O/ODToroOpen.jpg'
 import ODToroClosed from '../images/Oliva/O/ODToroClosed.jpg'
 
-import OTorpedo from '../images/Oliva/O/OTorpedo.jpg'
+import OTorpedo from '../images/Oliva/O/OTorpedo.png'
 import OTorpedoOpen from '../images/Oliva/O/OTorpedoOpen.jpg'
 import OTorpedoClosed from '../images/Oliva/O/OTorpedoClosed.jpg'
 
-import OmaduroChurchill from '../images/Oliva/O/OmaduroChurchill.jpg'
+import OmaduroChurchill from '../images/Oliva/O/OmaduroChurchill.png'
 import OmaduroChurchillOpen from '../images/Oliva/O/OmaduroChurchillOpen.jpg'
 import OmaduroChurchillClosed from '../images/Oliva/O/OmaduroChurchillClosed.jpg'
 
-import OmaduroDoubleToro from '../images/Oliva/O/OmaduroDoubleToro.jpg'
+import OmaduroDoubleToro from '../images/Oliva/O/OmaduroDoubleToro.png'
 import OmaduroDoubleToroOpen from '../images/Oliva/O/OmaduroDoubleToroOpen.jpg'
 import OmaduroDoubleToroClosed from '../images/Oliva/O/OmaduroDoubleToroClosed.jpg'
 
-import OmaduroTorpedo from '../images/Oliva/O/OmaduroTorpedo.jpg'
+import OmaduroTorpedo from '../images/Oliva/O/OmaduroTorpedo.png'
 import OmaduroTorpedoOpen from '../images/Oliva/O/OmaduroTorpedoOpen.jpg'
 import OmaduroTorpedoClosed from '../images/Oliva/O/OmaduroTorpedoClosed.jpg'
 
 
-// Anjelo
-import No49 from '../images/AF/Anjelo/No49.png'
-import No49Open from '../images/AF/Anjelo/anjeloOpen.jpg'
-import No49Closed from '../images/AF/Anjelo/anjeloClosed.jpg'
+// Seria G
+import GChurchill from '../images/Oliva/G/GChurchill.png'
+import GChurchillOpen from '../images/Oliva/G/GChurchillOpen.jpg'
+import GChurchillClosed from '../images/Oliva/G/GChurchillClosed.jpg'
 
-import No48 from '../images/AF/Anjelo/No48.png'
-import No48Open from '../images/AF/Anjelo/No48Open.jpg'
-import No48Closed from '../images/AF/Anjelo/No48Closed.jpg'
+import GFigurado from '../images/Oliva/G/GFigurado.png'
+import GFiguradoOpen from '../images/Oliva/G/GFiguradoOpen.jpg'
+import GFiguradoClosed from '../images/Oliva/G/GFiguradoCLosed.jpg'
 
-import No888 from '../images/AF/Anjelo/No88.png'
-import No888Open from '../images/AF/Anjelo/No888Open.jpg'
-import No888Closed from '../images/AF/Anjelo/No888Closed.jpg'
+import GTorpedo from '../images/Oliva/G/GTorpedo.png'
+import GTorpedoOpen from '../images/Oliva/G/GTorpedoOpen.jpg'
+import GTorpedoClosed from '../images/Oliva/G/GTorpedoClosed.jpg'
 
-import No60 from '../images/AF/Anjelo/No60.png'
-import No60Open from '../images/AF/Anjelo/No60Open.jpg'
-import No60Closed from '../images/AF/Anjelo/No60Closed.jpg'
+import GMaduroPresidente from '../images/Oliva/G/GMaduroPresidente.png'
+import GMaduroPresidenteOpen from '../images/Oliva/G/GMaduroPresidenteOpen.jpg'
+import GMaduroPresidenteClosed from '../images/Oliva/G/GMaduroPresidenteClosed.jpg'
 
-import No55 from '../images/AF/Anjelo/No55.png'
-import No55Open from '../images/AF/Anjelo/No55Open.jpg'
-import No55Closed from '../images/AF/Anjelo/No55Closed.jpg'
+import GMaduroChurchill from '../images/Oliva/G/GMaduroChurchill.png'
+import GMaduroChurchillOpen from '../images/Oliva/G/GMaduroChurchillOpen.jpg'
+import GMaduroChurchillClosed from '../images/Oliva/G/GMaduroChurchillClosed.jpg'
 
-import No77 from '../images/AF/Anjelo/No77.png'
-import No77Open from '../images/AF/Anjelo/No77Open.jpg'
-import No77Closed from '../images/AF/Anjelo/No77Closed.jpg'
-
-//Fuente Fuente OpusX
-import doubleCorona from '../images/AF/FF/doubleCorona.png'
-import doubleCoronaOpen from '../images/AF/FF/doubleCoronaOpen.jpg'
-import doubleCoronaClosed from '../images/AF/FF/doubleCoronaClosed.jpg'
-
-import reserva from '../images/AF/FF/reserva.png'
-import reservaOpen from '../images/AF/FF/rservaOpen.jpg'
-import reservaCLosed from '../images/AF/FF/reservaClosed.jpg'
-
-import PerfNo2 from '../images/AF/FF/PerfNo2.png'
-import PerfNo2Open from '../images/AF/FF/PerfNo2Open.jpg'
-import PerfNo2Closed from '../images/AF/FF/PerfNo2Closed.jpg'
-
-import X from '../images/AF/FF/X.png'
-import XOpen from '../images/AF/FF/XOpen.jpg'
-import XClosed from '../images/AF/FF/XClosed.jpg'
-
-import lancero from '../images/AF/FF/lancero.png'
-import lanceroOpen from '../images/AF/FF/lanceroOpen.jpg'
-import lanceroClosed from '../images/AF/FF/lanceroClosed.jpg'
-
-import no77Shark from '../images/AF/FF/no77Shark.png'
-import no77SharkOpen from '../images/AF/FF/no77SharkOpen.jpg'
-import no77SharkClosed from '../images/AF/FF/no77SharkClosed.jpg'
-
-//20th Anniversary
-
-import gods from '../images/AF/20th/gods.png'
-import godsOpen from '../images/AF/20th/godsOpen.jpg'
-import godsClosed from '../images/AF/20th/godsClosed.jpg'
-
-import power from '../images/AF/20th/power.png'
-import powerOpen from '../images/AF/20th/powerOpen.png'
-import powerClosed from '../images/AF/20th/powerClosed.jpg'
-
-import father from '../images/AF/20th/father.png'
-import fatherOpen from '../images/AF/20th/fatherOpen.png'
-import fatherClosed from '../images/AF/20th/fatherClosed.jpg'
-
-import belive from '../images/AF/20th/father.png'
-import beliveOpen from '../images/AF/20th/beliveOpen.png'
-import beliveClosed from '../images/AF/20th/beliveClosed.jpg'
+import GMaduroTorpedo from '../images/Oliva/G/GMaduroTorpedo.png'
+import GMaduroTorpedoOpen from '../images/Oliva/G/GMaduroTorpedoOpen.jpg'
+import GMaduroTorpedoClosed from '../images/Oliva/G/GMaduroTorpedoCLosed.jpg'
 
 
+//Connecticut Reserve
 
+import CRChurchill from '../images/Oliva/CR/CRChurchill.png'
+import CRChurchillOpen from '../images/Oliva/CR/CRChurchillOpen.jpg'
+import CRChurchillClosed from '../images/Oliva/CR/CRChurchillClosed.jpg'
+
+import CRTorpedo from '../images/Oliva/CR/CRTorpedo.png'
+import CRTorpedoOpen from '../images/Oliva/CR/CRTorpedoOpen.jpg'
+import CRTorpedoClosed from '../images/Oliva/CR/CRTorpedoClosed.jpg'
+
+import CRLonsdale from '../images/Oliva/CR/CRLonsdale.png'
+import CRLonsdaleOpen from '../images/Oliva/CR/CRLonsdaleOpen.jpg'
+import CRLonsdaleClosed from '../images/Oliva/CR/CRLonsdaleClosed.jpg'
+
+import CRDoubleToro from '../images/Oliva/CR/CRDoubleToro.png'
+import CRDoubleToroOpen from '../images/Oliva/CR/CRDoubleToroOpen.jpg'
+import CRDoubleToroClosed from '../images/Oliva/CR/CRDoubleToroClosed.jpg'
+
+import CRToro from '../images/Oliva/CR/CRToro.png'
+import CRToroOpen from '../images/Oliva/CR/CRToroOpen.jpg'
+import CRToroClosed from '../images/Oliva/CR/CRToroClosed.jpg'
+
+import CRRobusto from '../images/Oliva/CR/CRRobusto.png'
+import CRRobustoOpen from '../images/Oliva/CR/CRRobustoOpen.jpg'
+import CRRobustoClosed from '../images/Oliva/CR/CRRobustoClosed.jpg'
+
+
+//Master blend 3
+
+import MBChurchillCigar from '../images/Oliva/MB/MBChurchill.png'
+import MBChurchillOpen from '../images/Oliva/MB/MBChurchillOpen.jpg'
+import MBChurchillClosed from '../images/Oliva/MB/MBChurchillClosed.jpg'
+
+import MBTorpedo from '../images/Oliva/MB/MBTorpedo.png'
+import MBTorpedoOpen from '../images/Oliva/MB/MBTorpedoOpen.jpg'
+import MBTorpedoClosed from '../images/Oliva/MB/MBTorpedoClosed.jpg'
+
+import MBRobosto from '../images/Oliva/MB/MBRobosto.png'
+import MBRobostoOpen from '../images/Oliva/MB/MBRobostoOpen.jpg'
+import MBRobostoClosed from '../images/Oliva/MB/MBTorpedoClosed.jpg'
 
 export const OliviaData = [
     {
@@ -342,124 +332,116 @@ export const OliviaData = [
     },
     {
         id: 4,
-        title: 'Anjelo',
-        subTitle: 'Богатите листа от обвивка на мадуро, отлежали в бъчви с коняк, правят пурата Arturo Fuente Añejo уникален дим. Въпреки че тази линия се отличава с няколко различни размера, тя е дом на една от най-известните фигури в света, No. 77 или Shark, както е известна.',
-        paragraphOne: `
-        Акулата е първата пула с торпедна форма, някога навита, която преминава от закръглена форма на парежо до квадратна преса. Тази пура Añejo е особено рядка.
-        `,
-        imgUrl: Anjelo,
-        imagBg: AnjeloBG,
+        title: 'The Serie G',
+        subTitle: 'Serie G е смес от средно тяло, направена с автентична африканско-камерунска обвивка. Уникалните вкусови нотки на тази обвивка се допълват от естественото богатство на никарагуанските пълнители Habano. Serie G е пура с нотки на кедър и кафе, което я прави отличен баланс на дим',
+        imgUrl: gChurchill,
+        imagBg: BG,
         cigars: [
             {
                 id: 1,
-                title: 'No 49',
-                subtitle: '19 (19mm)',
-                img: No49,
-                openBox: No49Open,
-                closedBox: No49Closed,
+                title: 'Churchill',
+                subtitle: '7 x 50',
+                img: GChurchill,
+                openBox: GChurchillOpen,
+                closedBox: GChurchillClosed,
             },
             {
                 id: 2,
-                title: 'No 48',
-                subtitle: '48 (19mm)',
-                img: No48,
-                openBox: No48Open,
-                closedBox: No48Closed,
+                title: 'Figurado',
+                subtitle: '6.5 x 60',
+                img: GFigurado,
+                openBox: GFiguradoOpen,
+                closedBox: GFiguradoClosed,
             },
             {
                 id: 3,
-                title: 'No 888',
-                subtitle: '44 (17mm)',
-                img: No888,
-                openBox: No888Open,
-                closedBox: No888Closed,
+                title: 'Torpedo',
+                subtitle: '6.5 x 52',
+                img: GTorpedo,
+                openBox: GTorpedoOpen,
+                closedBox: GTorpedoClosed,
             },
             {
                 id: 4,
-                title: 'No 60',
-                subtitle: '48 (19mm)',
-                img: No60,
-                openBox: No60Open,
-                closedBox: No60Closed,
+                title: 'Maduro Presidente',
+                subtitle: '8 x 52',
+                img: GMaduroPresidente,
+                openBox: GMaduroPresidenteOpen,
+                closedBox: GMaduroPresidenteClosed,
             },
             {
                 id: 5,
-                title: 'No 55',
-                subtitle: '55 (22mm)',
-                img: No55,
-                openBox: No55Open,
-                closedBox: No55Closed,
+                title: 'Maduro Churchill',
+                subtitle: '7 x 50',
+                img: GMaduroChurchill,
+                openBox: GMaduroChurchillOpen,
+                closedBox: GMaduroChurchillClosed,
             },
             {
                 id: 6,
-                title: 'No 77 Shark',
-                subtitle: '50/64 (20/25mm)',
-                img: No77,
-                openBox: No77Open,
-                closedBox: No77Closed,
+                title: 'Maduro Torpedo',
+                subtitle: '6 x 50',
+                img: GMaduroTorpedo,
+                openBox: GMaduroTorpedoOpen,
+                closedBox: GMaduroTorpedoClosed,
             }
         ]
     },
     {
         id: 5,
-        title: 'Fuente Fuente Opus X',
-        subTitle: 'Сгушен в богатата вулканична почва на Доминиканската република, се намира Шато де ла Фуенте, дом на най-изисканата пура на нашето време, желаният Fuente Fuente OpusX.',
-        paragraphOne: `
-        Богатите на минерали почви на Доминиканската република, считани някога за неподходящи за опаковане на тютюн, никога не са срещали експертизата и упоритостта на семейство Фуенте. Заедно те култивираха великолепен тютюн, който се превърна в основата на известния Fuente Fuente OpusX, първият доминикански пуро в историята.       
-         `,
-        paragraphTwo: `
-         Днес Fuente Fuente OpusX се счита за върха на съвършенството на пурите и стандарт, по който се измерват всички пури. Уникалната комбинация от тютюни Fuente произвежда вкусове както гладки, така и смели, в хармония със сладката трайна пълнота на ексклузивния тютюн за обвивка Fuente Fuente OpusX. Безупречна конструкция, изискан вкус и век на майсторство и традиция.
-         `,
-        imgUrl: FF,
-        imagBg: FfBG,
+        title: 'Connecticut Reserve',
+        subTitle: 'Резерват Кънектикът е смесен от никарагуански дълги пълнители и свързващо вещество. Завършена само с най-добрата обвивка от еквадорски Кънектикът, тази пура със средно тяло показва богати вкусове като гладък, копринен дим. Тази мека пура не се отличава с вкус със своите фини нотки на дърво, което я прави идеалната пура "по всяко време".',
+
+        imgUrl: GRChurchill,
+        imagBg: BG,
         cigars: [
             {
                 id: 1,
-                title: 'Double Corona',
-                subtitle: '49 (19mm)',
-                img: doubleCorona,
-                openBox: doubleCoronaOpen,
-                closedBox: doubleCoronaClosed,
+                title: 'Churchill',
+                subtitle: '7 x 50',
+                img: CRChurchill,
+                openBox: CRChurchillOpen,
+                closedBox: CRChurchillClosed,
             },
             {
                 id: 2,
-                title: `Reserva D'Chateau`,
-                subtitle: '48 (19mm)',
-                img: reserva,
-                openBox: reservaOpen,
-                closedBox: reservaCLosed,
+                title: `Torpedo`,
+                subtitle: '6.5 x 52',
+                img: CRTorpedo,
+                openBox: CRTorpedoOpen,
+                closedBox: CRTorpedoClosed,
             },
             {
                 id: 3,
-                title: 'Perfecxion No 2',
-                subtitle: '52 (21mm)',
-                img: PerfNo2,
-                openBox: PerfNo2Open,
-                closedBox: PerfNo2Closed,
+                title: 'Lonsdale',
+                subtitle: '6.5 x 44',
+                img: CRLonsdale,
+                openBox: CRLonsdaleOpen,
+                closedBox: CRLonsdaleClosed,
             },
             {
                 id: 4,
-                title: 'Perfecxion X',
+                title: 'Double Toro',
                 subtitle: '48 (19mm)',
-                img: X,
-                openBox: XOpen,
-                closedBox: XClosed,
+                img: CRDoubleToro,
+                openBox: CRDoubleToroOpen,
+                closedBox: CRDoubleToroClosed,
             },
             {
                 id: 5,
-                title: 'Petit Lancero',
-                subtitle: '39 (15mm)',
-                img: lancero,
-                openBox: lanceroOpen,
-                closedBox: lanceroClosed,
+                title: 'Toro',
+                subtitle: '6 x 50',
+                img: CRToro,
+                openBox: CRToroOpen,
+                closedBox: CRToroClosed,
             },
             {
                 id: 6,
-                title: 'Perfecxion No77 Shark',
-                subtitle: '52 (21mm)',
-                img: no77Shark,
-                openBox: no77SharkOpen,
-                closedBox: no77SharkClosed,
+                title: 'Robosto',
+                subtitle: '5 x 50',
+                img: CRRobusto,
+                openBox: CRRobustoOpen,
+                closedBox: CRRobustoClosed,
             }
 
 
@@ -467,42 +449,34 @@ export const OliviaData = [
     },
     {
         id: 6,
-        title: '20th Anniversary',
-        subTitle: 'Исках да продуцирам нещо, което си спомних. Исках да се върна в детството си. Исках да се върна към най-щастливите моменти от живота си. Исках дядо ми да се гордее с мен. Исках баща ми да се гордее с мен, а децата ми някой ден да се гордеят с мен. Това беше нещо, което трябваше да направя.',
-        imgUrl: P20th,
-        imagBg: P20thBG,
+        title: 'Master Blends 3',
+        subTitle: 'Master Blends 3 е третото предложение от поредица ограничени занаятчийски смеси. Liga Maestra е специално смесена, за да предостави най-богатите характеристики на никарагуанските пълнители на лигаро и обвивките от Broadleaf, отглеждани на слънце. Това е сложна пура, изработена за най-развитото небце.',
+        imgUrl: MBChurchill,
+        imagBg: BG,
         cigars: [
             {
                 id: 1,
-                title: `God's whisper`,
-                subtitle: '56 (22mm)',
-                img: gods,
-                openBox: godsOpen,
-                closedBox: godsClosed,
+                title: `Churchill`,
+                subtitle: ' 7 x 50',
+                img: MBChurchillCigar,
+                openBox: MBChurchillOpen,
+                closedBox: MBChurchillClosed,
             },
             {
                 id: 2,
-                title: `Power of the dream`,
-                subtitle: '52 (21mm)',
-                img: power,
-                openBox: powerOpen,
-                closedBox: powerClosed,
+                title: `Torpedo`,
+                subtitle: '6 x 52',
+                img: MBTorpedo,
+                openBox: MBTorpedoOpen,
+                closedBox: MBTorpedoClosed,
             },
             {
                 id: 3,
-                title: `Father & Son`,
+                title: `Robosto`,
                 subtitle: '49 (19mm)',
-                img: father,
-                openBox: fatherOpen,
-                closedBox: fatherClosed,
-            },
-            {
-                id: 4,
-                title: `Belive`,
-                subtitle: '52 (21mm)',
-                img: belive,
-                openBox: beliveOpen,
-                closedBox: beliveClosed,
+                img: MBRobosto,
+                openBox: MBRobostoOpen,
+                closedBox: MBRobostoClosed,
             },
 
         ]

@@ -30,6 +30,11 @@ import Footer from './components/Footer/Footer';
 import SingleCigarPadron from './pages/Cigars/SingleCigarPadron';
 import SingleCigarArturoFuente from './pages/Cigars/SingleCigarArturoFuente';
 import SingleCigarOlivia from './pages/Cigars/SingleCigarOlivia'
+import SingleCigarNub from './pages/Cigars/SingleCigarNub'
+import SingleCigarLaGarela from './pages/Cigars/SingleCigarLaGarela'
+import SingCigarLaFlorDominicana from './pages/Cigars/SingCigarLaFlorDominicana'
+import SingleCigarCiboa from './pages/Cigars/SingleCigarCiboa'
+import SingleCigarCain from './pages/Cigars/SingleCigarCain'
 
 
 
@@ -60,13 +65,22 @@ function App() {
       <Route path='/arturo-fuente/:id' component={SingleCigarArturoFuente} />
 
       <Route path="/cigar/oliva" component={Olivia} />
-      <Route path='/olivia/:id' component={SingleCigarOlivia}/>
+      <Route path='/olivia/:id' component={SingleCigarOlivia} />
 
       <Route path="/cigar/nub" component={Nub} />
+      <Route path='/nub/:id' component={SingleCigarNub} />
+
       <Route path="/cigar/cain" component={Cain} />
+      <Route path="/cain/:id" component={SingleCigarCain} />
+
       <Route path="/cigar/la-garela" component={LaGarela} />
+      <Route path="/la-garela/:id" component={SingleCigarLaGarela} />
+
       <Route path="/cigar/la-flor-dominicana" component={LaFlorDominicana} />
+      <Route path="/la-flor-dominicana/:id" component={SingCigarLaFlorDominicana} />
+
       <Route path="/cigar/ciboa" component={Ciboa} />
+      <Route path="/ciboa/:id" component={SingleCigarCiboa} />
       <Route path="*" component={ErrorPage} />
     </Switch>
     <Footer />

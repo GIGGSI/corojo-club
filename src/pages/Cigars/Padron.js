@@ -5,8 +5,11 @@ import Banner from '../../components/Globals/SectionHero/Banner'
 import SectionInfo from '../../components/Globals/SectionHero/SectionInfo'
 import { PadronData } from '../../data/Padron.js'
 import styled from 'styled-components'
-import { setColor } from '../../stlyes'
 import { Link } from 'react-router-dom'
+
+import Container from '../../components/Globals/SingleCigars/Container'
+import Heading from '../../components/Globals/SingleCigars/Heading'
+import SingleCigarContainer from '../../components/Globals/SingleCigars/SingleCigarContainer'
 
 const Padron = () => {
     const [data, setData] = useState(PadronData)
@@ -49,66 +52,6 @@ const Padron = () => {
     </>
 }
 
-
-
-
-const Container = styled.div`
-padding: 3rem calc((100vw - 1300px)/2);
-display: grid;
-grid-template-columns:1fr 1fr 1fr 1fr;
-grid-gap:1rem;
-color:${setColor.mainWhite};
-/* grid-template-rows:800px; */
-
-
-
-@media screen and (max-width:1100px){
-grid-template-columns:1fr 1fr;
-
-}
-@media screen and (max-width:768px){
-grid-template-columns:1fr;
-
-}`;
-const Heading = styled.div`
-p{
-    color:${setColor.mainWhite};
-    padding:1rem 2rem;
-}
-text-align:center;
-
-`
-const SingleCigarContainer = styled.div`
-a {text-decoration: none;
-  
-}
-
-text-align:center;
-h3{
-    color:${setColor.primaryColor};
-    /* height:4rem; */
-    padding-top:1rem;
-}
-
-img {
-   width:30%;
-   transition:all 0.2s linear;
-   &:hover{
-       transform:scale(1.05) translateY(-1rem);
-   }    
-}
-
-p{
-    color:${setColor.mainWhite};
-    padding-bottom:1rem;
-    
-}
-&:hover {
-    /* -webkit-box-shadow: 5px 5px 10px 2px #000000; 
-box-shadow: 5px 5px 10px 2px #000000; */
-}
-
-`
 
 const CardSide = styled.div`
 
