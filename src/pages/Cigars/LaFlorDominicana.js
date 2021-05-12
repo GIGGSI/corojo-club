@@ -3,6 +3,8 @@ import SectionSinglePageCigar from '../../components/Globals/SectionHero/Section
 import laFlor from '../../images/laFlor.png'
 import Banner from '../../components/Globals/SectionHero/Banner'
 import { Link } from 'react-router-dom'
+import { LaFlorDominicanaData } from '../../data/LaFlorDominicana'
+
 
 import styled from 'styled-components'
 import SectionInfo from '../../components/Globals/SectionHero/SectionInfo'
@@ -13,17 +15,17 @@ import SingleCigarContainer from '../../components/Globals/SingleCigars/SingleCi
 
 
 const LaFlorDominicana = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(LaFlorDominicanaData)
     return <>
         <SectionSinglePageCigar img={laFlor} >
-            <Banner
+            <Banner greeting="La Flor Dominicana "
+                text="са известни със своите иновативни форми и използването на тютюни, отглеждани във фермите на компанията в Доминиканската република"
             />
         </SectionSinglePageCigar>
         <SectionInfo>
             <Heading>
                 <p>
-                    La Floar Dominicana
-                </p>
+                    В допълнение към основната си марка La Flor Dominicana, La Flor е познат за марки като Ligero, Double Ligero и Камерун.                </p>
 
             </Heading>
             <Container>

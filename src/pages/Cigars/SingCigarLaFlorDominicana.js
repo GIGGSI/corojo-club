@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useParams } from 'react-router'
 import SectionSinglePageCigar from '../../components/Globals/SectionHero/SectionSinglePageCigar'
 import Banner from '../../components/Globals/SectionHero/Banner'
+import { LaFlorDominicanaData } from '../../data/LaFlorDominicana'
 
 import styled from 'styled-components'
 import Box from './Box'
@@ -10,7 +11,7 @@ import CigarInfo from '../../components/Globals/SingleCigars/CigarInfo'
 import CigarWrapper from '../../components/Globals/SingleCigars/CigarWrapper'
 
 const SingCigarLaFlorDominicana = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(LaFlorDominicanaData)
     const { id } = useParams()
 
     const cigar = data.filter((item) => item.id === +id);

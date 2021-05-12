@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import SectionSinglePageCigar from '../../components/Globals/SectionHero/SectionSinglePageCigar'
 import imgBg from '../../images/cain.png'
+import { CainData } from '../../data/Cain'
 import Banner from '../../components/Globals/SectionHero/Banner'
 import SectionInfo from '../../components/Globals/SectionHero/SectionInfo'
 import Container from '../../components/Globals/SingleCigars/Container'
@@ -10,15 +11,18 @@ import Heading from '../../components/Globals/SingleCigars/Heading'
 import SingleCigarContainer from '../../components/Globals/SingleCigars/SingleCigarContainer'
 
 const Cain = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(CainData)
     return <>
         <SectionSinglePageCigar img={imgBg} >
-            <Banner />
+            <Banner
+                greeting="Ръчно изработени пури Cain"
+                text=" от компанията за пури Oliva в Никарагуа и са известни със смели вкусове и средни до пълноценни профили, които се гордеят с много дълбочина и плътност"
+            />
         </SectionSinglePageCigar>
         <SectionInfo>
             <Heading>
                 <p>
-                    Nub
+                    Любителите на пури, които предпочитат малко допълнителен удар в любимите си пури, търсят Каин за надеждна конструкция и дълбоки, земни подправки. Cain пурите традиционно се смесват със солиден асортимент от никарагуански тютюни ligaro, които създават богати, различни вкусове и командват внимание.
                 </p>
             </Heading>
             <Container>

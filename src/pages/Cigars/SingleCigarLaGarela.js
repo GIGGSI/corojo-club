@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { LaGarelaData } from '../../data/LaGarela'
 
 import styled from 'styled-components'
 import Box from './Box'
@@ -11,7 +12,7 @@ import CigarInfo from '../../components/Globals/SingleCigars/CigarInfo'
 import CigarWrapper from '../../components/Globals/SingleCigars/CigarWrapper'
 
 const SingleCigarLaGarela = () => {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(LaGarelaData);
     const { id } = useParams()
 
     const cigar = data.filter((item) => item.id === +id);
