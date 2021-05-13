@@ -1,19 +1,21 @@
 
-//https://www.cigaraficionado.com/brand/la-flor-dominicana
 
 import LineroBg from '../images/LaFlorDominicana/Ligero/LigeroBg.jpg'
 import Linero from '../images/LaFlorDominicana/Ligero/Linero.png'
 
-import Aneomi from '../images/LaGarela/Aneomi/Aneomi.png'
-import AneomiBg from '../images/LaGarela/Aneomi/AneomiBg.jpg'
+import LFD_1994 from '../images/LaFlorDominicana/1994/LFD_1994BG.png'
 
-import connecti from '../images/LaGarela/CB/connecti.png'
-import CBBG from '../images/LaGarela/CB/CBBG.jpg'
+import LF from '../images/LaFlorDominicana/1994/LF.png'
 
+import Oro from '../images/LaFlorDominicana/Oro/Oro.png'
+import OroBG from '../images/LaFlorDominicana/Oro/OroBG.jpg'
 
+import Litto from '../images/LaFlorDominicana/Litto/Litto.png'
+import LittoBG from '../images/LaFlorDominicana/Litto/LIttoBG.jpg'
 
-import hubano from '../images/LaGarela/Habano/habano.png'
-import habanoBG from '../images/LaGarela/Habano/habanoBG.jpg'
+import Camerron from '../images/LaFlorDominicana/Cameroon/Camerron.png'
+import CamerronBG from '../images/LaFlorDominicana/Cameroon/CamerronBG.png'
+
 
 import maduro from '../images/LaGarela/Maduro/maduro.png';
 import maduroBg from '../images/LaGarela/Maduro/maduroBg.jpg'
@@ -44,100 +46,56 @@ import Linero6Open from '../images/LaFlorDominicana/Ligero/Linero6Open.jpg'
 import Linero6Closed from '../images/LaFlorDominicana/Ligero/Linero6Closed.jpg'
 
 
-//Aneomi
-import Aneomi1 from '../images/LaGarela/Aneomi/Aneomi-1.png'
-import Aneomi1Open from '../images/LaGarela/Aneomi/AneomiOpen1.jpg'
-import Aneomi1Closed from '../images/LaGarela/Aneomi/AneomiClosed1.jpg'
+//1994
+import LF1 from '../images/LaFlorDominicana/1994/LF-1.png'
+import LF1Open from '../images/LaFlorDominicana/1994/LF-1Open.png'
+import LF1Closed from '../images/LaFlorDominicana/1994/LF-1Closed.jpg'
 
-import Aneomi2 from '../images/LaGarela/Aneomi/Aneomi-2.png'
-import Aneomi2Open from '../images/LaGarela/Aneomi/AneomiOpen2.jpg'
-import Aneomi2Closed from '../images/LaGarela/Aneomi/AneomiClosed2.jpg'
+import LF2 from '../images/LaFlorDominicana/1994/LF-2.png'
+import LF2Open from '../images/LaFlorDominicana/1994/LF-2Open.jpg'
+import LF2Closed from '../images/LaFlorDominicana/1994/LF-2Closed.jpg'
 
-import Aneomi3 from '../images/LaGarela/Aneomi/Aneomi-3.png'
-import Aneomi3Open from '../images/LaGarela/Aneomi/AneomiOpen3.jpg'
-import Aneomi3Closed from '../images/LaGarela/Aneomi/AneomiClosed3.jpg'
+import LF3 from '../images/LaFlorDominicana/1994/LF-3.png'
+import LF3Open from '../images/LaFlorDominicana/1994/LF-3Open.png'
+import LF3Closed from '../images/LaFlorDominicana/1994/LF-3Closed.jpg'
 
-import Aneomi4 from '../images/LaGarela/Aneomi/Aneomi-4.png'
-import Aneomi4Open from '../images/LaGarela/Aneomi/AneomiOpen4.jpg'
-import Aneomi4Closed from '../images/LaGarela/Aneomi/AneomiClosed4.jpg'
+//Oro
+import Oro1 from '../images/LaFlorDominicana/Oro/Oro-1.png'
+import Oro1Open from '../images/LaFlorDominicana/Oro/Oro-1Open.jpg'
+import Oro1Closed from '../images/LaFlorDominicana/Oro/Oro-1Closed.jpg'
 
-import Aneomi5 from '../images/LaGarela/Aneomi/Aneomi-5.png'
-import Aneomi5Open from '../images/LaGarela/Aneomi/AneomiOpen5.jpg'
-import Aneomi5Closed from '../images/LaGarela/Aneomi/AneomiClosed5.jpg'
-
-
-//Connecticut 
-import Connecticut1 from '../images/LaGarela/CB/Connecticut1.png'
-import Connecticut1Open from '../images/LaGarela/CB/Connecticut1Open.jpg'
-import Connecticut1Closed from '../images/LaGarela/CB/Connecticut1Closed.jpg'
-
-import Connecticut2 from '../images/LaGarela/CB/Connecticut2.png'
-import Connecticut2Open from '../images/LaGarela/CB/Connecticut2Open.jpg'
-import Connecticut2Closed from '../images/LaGarela/CB/Connecticut2Closed.jpg'
-
-import Connecticut3 from '../images/LaGarela/CB/Connecticut3.png'
-import Connecticut3Open from '../images/LaGarela/CB/Connecticut3Open.jpg'
-import Connecticut3Closed from '../images/LaGarela/CB/Connecticut3Closed.jpg'
-
-import Connecticut4 from '../images/LaGarela/CB/Connecticut4.png'
-import Connecticut4Open from '../images/LaGarela/CB/Connecticut4Open.jpg'
-import Connecticut4Closed from '../images/LaGarela/CB/Connecticut4Closed.jpg'
-
-import Connecticut5 from '../images/LaGarela/CB/Connecticut5.png'
-import Connecticut5Open from '../images/LaGarela/CB/Connecticut5Open.jpg'
-import Connecticut5Closed from '../images/LaGarela/CB/Connecticut5Closed.jpg'
-
-import Connecticut6 from '../images/LaGarela/CB/Connecticut6.png'
-import Connecticut6Open from '../images/LaGarela/CB/Connecticut6Open.jpg'
-import Connecticut6Closed from '../images/LaGarela/CB/Connecticut6Closed.jpg'
+import Oro2 from '../images/LaFlorDominicana/Oro/Oro-2.png'
+import Oro2Open from '../images/LaFlorDominicana/Oro/Oro-2Open.png'
+import Oro2Closed from '../images/LaFlorDominicana/Oro/Oro-2Closed.jpg'
 
 
+//Litto
+import Litto1 from '../images/LaFlorDominicana/Litto/Litto-1.png'
+import Litto1Open from '../images/LaFlorDominicana/Litto/Litto-1Open.jpg'
+import Litto1Closed from '../images/LaFlorDominicana/Litto/Litto-1Closed.jpg'
 
-//Hubano
-import habano1 from '../images/LaGarela/Habano/habano1.png'
-import habano1Open from '../images/LaGarela/Habano/habano-1Open.jpg'
-import habano1Closed from '../images/LaGarela/Habano/habano-1Closed.jpg'
+import Litto2 from '../images/LaFlorDominicana/Litto/Litto-2.png'
 
-import habano2 from '../images/LaGarela/Habano/habano2.png'
-import habano2Open from '../images/LaGarela/Habano/habano-2Open.jpg'
-import habano2Closed from '../images/LaGarela/Habano/habano-2Closed.jpg'
+import Litto3 from '../images/LaFlorDominicana/Litto/Litto-3.png'
 
-import habano3 from '../images/LaGarela/Habano/habano3.png'
-import habano3Open from '../images/LaGarela/Habano/habano-3Open.jpg'
-import habano3Closed from '../images/LaGarela/Habano/habano-3Closed.jpg'
+import Litto4 from '../images/LaFlorDominicana/Litto/Litto-4.png'
 
-import habano4 from '../images/LaGarela/Habano/habano4.png'
-import habano4Open from '../images/LaGarela/Habano/habano-4Open.jpg'
-import habano4Closed from '../images/LaGarela/Habano/habano-4Closed.jpg'
+import Litto5 from '../images/LaFlorDominicana/Litto/Litto-5.png'
 
-import habano5 from '../images/LaGarela/Habano/habano5.png'
-import habano5Open from '../images/LaGarela/Habano/habano-5Open.jpg'
-import habano5Closed from '../images/LaGarela/Habano/habano-5Closed.jpg'
 
-import habano6 from '../images/LaGarela/Habano/habano6.png'
-import habano6Open from '../images/LaGarela/Habano/habano-6Open.jpg'
-import habano6Closed from '../images/LaGarela/Habano/habano-6Closed.jpg'
+// Camerron
+import Camerron1 from '../images/LaFlorDominicana/Cameroon/Cammeron1.png'
+import Camerron1Open from '../images/LaFlorDominicana/Cameroon/Camerron-1Open.jpg'
+import Camerron1Closed from '../images/LaFlorDominicana/Cameroon/Camerron-1Closed.jpg'
 
-// Maduro
-import maduro1 from '../images/LaGarela/Maduro/maduro1.png';
-import maduro1Open from '../images/LaGarela/Maduro/maduro-1Open.jpg';
-import maduro1Closed from '../images/LaGarela/Maduro/maduro-1Closed.jpg';
+import Camerron2 from '../images/LaFlorDominicana/Cameroon/Camerron-2.png'
 
-import maduro2 from '../images/LaGarela/Maduro/maduro2.png';
-import maduro2Open from '../images/LaGarela/Maduro/maduro-2Open.jpg';
-import maduro2Closed from '../images/LaGarela/Maduro/maduro-2Closed.jpg';
+import Camerron3 from '../images/LaFlorDominicana/Cameroon/Camerron-3.png'
 
-import maduro3 from '../images/LaGarela/Maduro/maduro3.png';
-import maduro3Open from '../images/LaGarela/Maduro/maduro-3Open.jpg';
-import maduro3Closed from '../images/LaGarela/Maduro/maduro-3Closed.jpg';
+import Camerron4 from '../images/LaFlorDominicana/Cameroon/Camerron-4.png'
 
-import maduro4 from '../images/LaGarela/Maduro/maduro4.png';
-import maduro4Open from '../images/LaGarela/Maduro/maduro-4Open.jpg';
-import maduro4Closed from '../images/LaGarela/Maduro/maduro-4Closed.jpg';
+import Camerron5 from '../images/LaFlorDominicana/Cameroon/Camerron-5.png'
 
-import maduro5 from '../images/LaGarela/Maduro/maduro5.png';
-import maduro5Open from '../images/LaGarela/Maduro/maduro-5Open.jpg';
-import maduro5Closed from '../images/LaGarela/Maduro/maduro-5Closed.jpg';
 
 
 export const LaFlorDominicanaData = [
@@ -204,226 +162,186 @@ export const LaFlorDominicanaData = [
     },
     {
         id: 2,
-        title: 'La Galera Anemoi',
+        title: 'La Flor Dominicana 1994',
         subTitle: `
         La Galera Anemoi е ръчно изработена в фабриката Tabacalera Palma на Jose “Jochy” Blanco в Доминиканската република. Анемоите получават името си от гръцката дума за вятърни богове.`,
         paragraphOne: `
            Това е пурка със средно до пълно тяло, която се отличава с червеникава, мазна обвивка на САЩ от Кънектикът Broadleaf, покрита със свързващо вещество Corojo от Доминиканската република и пълнител, направен от Доминиканската република, Dominican Piloto 98 и Criollo 98 тютюни. La Galera Anemoi има вкусов профил, който се състои от кожа, кафе и ядки.        `,
 
-        imgUrl: Aneomi,
-        imagBg: AneomiBg,
+        imgUrl: LF,
+        imagBg: LFD_1994,
         cigars: [
             {
                 id: 1,
-                title: 'La Galera Anemoi Anemoi',
-                subtitle: '6"3/8 * 52',
-                img: Aneomi1,
-                openBox: Aneomi1Open,
-                closedBox: Aneomi1Closed,
+                title: 'La Flor Dominicana 1994 Mambo ',
+                subtitle: '7"',
+                img: LF1,
+                openBox: LF1Open,
+                closedBox: LF1Closed,
             },
             {
                 id: 2,
-                title: 'La Galera Anemoi Boreas',
-                subtitle: '4"3/4 * 46',
-                img: Aneomi2,
-                openBox: Aneomi2Open,
-                closedBox: Aneomi2Closed,
+                title: 'La Flor Dominicana Andalusian Bull',
+                subtitle: '6 1/2"',
+                img: LF2,
+                openBox: LF2Open,
+                closedBox: LF2Closed,
             },
             {
                 id: 3,
-                title: 'La Galera Anemoi Eurus ',
-                subtitle: '5"1/2 * 48',
-                img: Aneomi3,
-                openBox: Aneomi3Open,
-                closedBox: Aneomi3Closed,
+                title: 'La Flor Dominicana 1994 Conga',
+                subtitle: '5" ',
+                img: LF3,
+                openBox: LF3Open,
+                closedBox: LF3Closed,
             },
             {
                 id: 4,
-                title: 'La Galera Anemoi Notus',
-                subtitle: '5" * 56',
-                img: Aneomi4,
-                openBox: Aneomi4Open,
-                closedBox: Aneomi4Closed,
+                title: 'La Flor Dominicana 1994 Aldaba',
+                subtitle: '6 1/2"',
+                img: LF1,
+                openBox: LF1Open,
+                closedBox: LF1Closed,
             },
             {
                 id: 5,
-                title: 'La Galera Anemoi Zephyrus',
-                subtitle: '6" * 60',
-                img: Aneomi5,
-                openBox: Aneomi5Open,
-                closedBox: Aneomi5Closed,
+                title: 'La Flor Dominicana 1994 Tango',
+                subtitle: '4 1/2"',
+                img: LF1,
+                openBox: LF1Open,
+                closedBox: LF1Closed,
             }
         ]
 
     },
     {
         id: 3,
-        title: 'La Galera Connecticut',
+        title: 'La Flor Dominicana Oro',
         subTitle: 'Представена ви от уважавания ветеран от индустрията Jochy Blanco, La Galera Connecticut е мека до средно тяло доминиканска пура с разкошна златистокафява еквадорска обвивка от Connecticut Shade, съчетана с първокласно доминиканско свързващо вещество и пълнител.',
         paragraphOne: `Съдържащ нотки на бадем, еспресо, пръст и сметана, тази гладка смес създава перфектна ежедневна пура, за ВСЯКО време от деня. „La Galera“ означава „подвижната стая“ на испански.`,
-        imgUrl: connecti,
-        imagBg: CBBG,
+        imgUrl: Oro,
+        imagBg: OroBG,
         cigars: [
             {
                 id: 1,
-                title: 'La Galera Connecticut Bonchero No.4',
-                subtitle: '5"1/2 * 42',
-                img: Connecticut1,
-                openBox: Connecticut1Open,
-                closedBox: Connecticut1Closed
+                title: 'La Flor Dominicana Oro Maduro Oro Tubo Maduro No. 6',
+                subtitle: '6"',
+                img: Oro1,
+                openBox: Oro1Open,
+                closedBox: Oro1Closed
             },
             {
                 id: 2,
-                title: 'La Galera Connecticut Cepo Pigtail Corona',
-                subtitle: '5" * 38',
-                img: Connecticut2,
-                openBox: Connecticut2Open,
-                closedBox: Connecticut2Closed,
-            },
-            {
-                id: 3,
-                title: 'La Galera Connecticut Chaveta Robusto',
-                subtitle: '5"1/8 * 50',
-                img: Connecticut3,
-                openBox: Connecticut3Open,
-                closedBox: Connecticut3Closed,
-            },
-            {
-                id: 4,
-                title: 'La Galera Connecticut Cortador Torpedo',
-                subtitle: '6"1/8 * 52',
-                img: Connecticut4,
-                openBox: Connecticut4Open,
-                closedBox: Connecticut4Closed,
-            },
-            {
-                id: 5,
-                title: 'La Galera Connecticut El Lector No.2 Tubo',
-                subtitle: '5"7/8 * 52',
-                img: Connecticut5,
-                openBox: Connecticut5Open,
-                closedBox: Connecticut5Closed,
-            },
-            {
-                id: 6,
-                title: 'La Galera Connecticut El Lector Toro',
-                subtitle: '6" * 54',
-                img: Connecticut6,
-                openBox: Connecticut6Open,
-                closedBox: Connecticut6Closed,
+                title: 'La Flor Dominicana Oro Chisel',
+                subtitle: '6 1/4"',
+                img: Oro2,
+                openBox: Oro2Open,
+                closedBox: Oro2Closed,
             },
 
         ]
     },
     {
         id: 4,
-        title: 'La Galera Habano ',
+        title: 'Litto Gomez Diez',
         subTitle: 'Донесена от уважавания ветеран от индустрията Jochy Blanco, La Galera Habano е средно тяло доминиканска пура с красива медна еквадорска обвивка Habano на върха на доминиканско свързващо вещество Corojo и пищен микс от доминикански Piloto Cubano, Criollo 98 и Pelo de Oro пълнители.',
         paragraphOne: `
         Съдържайки кремообразни нотки на кедър, кафе и карамел, тази богата смес ще продължи да се развива и впечатлява до последното вдишване. „La Galera“ означава „подвижната стая“ на испански.
         `,
-        imgUrl: hubano,
-        imagBg: habanoBG,
+        imgUrl: Litto,
+        imagBg: LittoBG,
         cigars: [
             {
                 id: 1,
-                title: 'La Galera Habano Bonchero No.4',
-                subtitle: '5"1/2 * 42',
-                img: habano1,
-                openBox: habano1Open,
-                closedBox: habano1Closed,
+                title: 'Litto Gomez Diez Dominicano',
+                subtitle: '6 7/8"',
+                img: Litto1,
+                openBox: Litto1Open,
+                closedBox: Litto1Closed,
             },
             {
                 id: 2,
-                title: 'La Galera Habano Cabeza Caracol Churchill',
-                subtitle: '7" * 47',
-                img: habano2,
-                openBox: habano2Open,
-                closedBox: habano2Closed,
+                title: 'Litto Gomez Diez Chisel Puro',
+                subtitle: '5 1/2"',
+                img: Litto2,
+                openBox: Litto1Open,
+                closedBox: Litto1Closed,
             },
             {
                 id: 3,
-                title: 'La Galera Habano Chaveta Robusto',
-                subtitle: '5" * 50',
-                img: habano3,
-                openBox: habano3Open,
-                closedBox: habano3Closed,
+                title: 'Litto Gomez Diez Lancero',
+                subtitle: '4 7/8"',
+                img: Litto3,
+                openBox: Litto1Open,
+                closedBox: Litto1Closed,
             },
             {
                 id: 4,
-                title: 'La Galera Habano Cortador Torpedo',
-                subtitle: '6"1/4 * 52',
-                img: habano4,
-                openBox: habano4Open,
-                closedBox: habano4Closed,
+                title: 'Litto Gomez Diez Small Batch No. 6',
+                subtitle: '6 3/4"',
+                img: Litto4,
+                openBox: Litto1Open,
+                closedBox: Litto1Closed,
             },
             {
                 id: 5,
-                title: 'La Galera Habano El Lector No.2 Turbo',
-                subtitle: '5"3/4 * 52',
-                img: habano5,
-                openBox: habano5Open,
-                closedBox: habano5Closed,
-            },
-            {
-                id: 6,
-                title: 'La Galera Habano El Lector Toro',
-                subtitle: '6" * 54 ',
-                img: habano6,
-                openBox: habano6Open,
-                closedBox: habano6Closed,
+                title: 'Litto Gomez Diez Oriental',
+                subtitle: '4 7/8"',
+                img: Litto5,
+                openBox: Litto1Open,
+                closedBox: Litto1Closed,
             },
 
         ]
     },
     {
         id: 5,
-        title: 'La Galera Maduro',
+        title: 'La Flor Dominicana Cameroon',
         subTitle: `Представен ви от уважавания ветеран от индустрията Jochy Blanco, La Galera Maduro е доминиканско пълноценно лакомство, включващо шоколадово кафяво мексиканско обвиване на San Andres, заедно с доминиканско свързващо вещество и пълнителна комбинация от доминикански Criollo '98 и Dominican Piloto Cubano`,
         paragraphOne: `
         Съдържащ силни нотки на какао, земя и кедър, тази грандиозна смес ще ви остави влюбени в своята смела сладост и гладко, богато покритие „La Galera“ означава „подвижната стая“ на испански.        `,
-        imgUrl: maduro,
-        imagBg: maduroBg,
+        imgUrl: Camerron,
+        imagBg: CamerronBG,
         cigars: [
             {
                 id: 1,
-                title: 'La Galera Maduro Chaveta Robusto',
-                subtitle: '5" * 50',
-                img: maduro1,
-                openBox: maduro1Open,
-                closedBox: maduro1Closed,
+                title: 'La Flor Dominicana Cameroon Cabinet No. 1',
+                subtitle: '6 1/2"',
+                img: Camerron1,
+                openBox: Camerron1Open,
+                closedBox: Camerron1Closed,
             },
             {
                 id: 2,
-                title: 'La Galera Maduro Churchill',
-                subtitle: '7"1/4 * 50',
-                img: maduro2,
-                openBox: maduro2Open,
-                closedBox: maduro2Closed,
+                title: 'La Flor Dominicana Cameroon Cabinet Torpedo',
+                subtitle: '6 1/4"',
+                img: Camerron2,
+                openBox: Camerron1Open,
+                closedBox: Camerron1Closed,
             },
             {
                 id: 3,
-                title: 'La Galera Maduro Cortador Torpedo',
-                subtitle: '6"1/8 * 52',
-                img: maduro3,
-                openBox: maduro3Open,
-                closedBox: maduro3Closed,
+                title: 'La Flor Dominicana Cameroon Cabinet Lancero',
+                subtitle: '7 1/2"',
+                img: Camerron3,
+                openBox: Camerron1Open,
+                closedBox: Camerron1Closed,
             },
             {
                 id: 4,
-                title: 'La Galera Maduro El Lector Toro',
-                subtitle: '6" * 54 ',
-                img: maduro4,
-                openBox: maduro4Open,
-                closedBox: maduro4Closed,
+                title: 'La Flor Dominicana Cameroon Cabinet No. 1',
+                subtitle: '6 1/2"',
+                img: Camerron4,
+                openBox: Camerron1Open,
+                closedBox: Camerron1Closed,
             },
             {
                 id: 5,
-                title: 'La Galera Maduro Pegador Corona Gorda',
-                subtitle: '6" * 46',
-                img: maduro5,
-                openBox: maduro5Open,
-                closedBox: maduro5Closed,
+                title: 'La Flor Dominicana Cameroon Cabinet Chisel',
+                subtitle: '6"',
+                img: Camerron5,
+                openBox: Camerron1Open,
+                closedBox: Camerron1Closed,
             },
 
         ]

@@ -15,8 +15,8 @@ export const infoSection = [
         icon: <GrDeliver />,
     },
     {
-        heading: 'Quality cigar',
-        paragraph: 'Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.',
+        heading: 'Доказано качество',
+        paragraph: 'В Corojo Club може да намерите само оригинални продукти.',
         icon: <GiCigar />,
     },
 

@@ -55,6 +55,7 @@ object-fit:cover;
     bottom: 0vh;
     left:0;
     overflow:hidden;
+    
     /* opacity:0.4; */
     /* background:linear-gradient(0deg,
     rgba(0,0,0,0.2) 0%,

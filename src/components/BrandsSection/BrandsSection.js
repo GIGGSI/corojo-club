@@ -62,7 +62,13 @@ const BrandsSection = () => {
     return <Section>
         <Heading>
             <h1>Марки </h1>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>
+                Кутии за пури, пакети, пакети, семплери и още ...
+                Ние носим пури за всички вкусове и предпочитания в Corojo Club.
+                Независимо дали търсите пура за специален повод, или ежедневна първокласна пура.
+                Можете да намерите пури, като издания с ограничено издание, или пури с първокласни
+                пълнители с дълги листа от различни страни по света.
+            </p>
         </Heading>
         <Container>
             {BrandsSectionData.map((item, index) => {

@@ -86,7 +86,15 @@ const RecommenddBlogs = () => {
     return <Section>
         <Heading>
             <h1>Препоръчани статии от блога ни </h1>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p>
+                Бъдете информирани за всички наши предстоящи събития в Corojo Club.
+                Ние предлагаме най-добрите събития за пури и сдвояване от най-добрите производители на
+                пури и дестилатори на уиски.
+                Излезте и опитайте първокласни пури, уиски, скоч, бърбън и се насладете на
+                атмосферата на нашите луксозни салони за пури, докато разговаряте с някои от
+                най-добрите в бранша!
+
+            </p>
         </Heading>
         <Container>
             {filteredArray.map((item) => {
