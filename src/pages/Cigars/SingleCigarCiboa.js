@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 
 import styled from 'styled-components'
 import Box from './Box'
+import { CiboaData } from '../../data/Ciboa'
 
 import SectionSinglePageCigar from '../../components/Globals/SectionHero/SectionSinglePageCigar'
 import Banner from '../../components/Globals/SectionHero/Banner'
@@ -11,7 +12,7 @@ import CigarInfo from '../../components/Globals/SingleCigars/CigarInfo'
 import CigarWrapper from '../../components/Globals/SingleCigars/CigarWrapper'
 
 const SingleCigarCiboa = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(CiboaData)
     const { id } = useParams();
     const cigar = data.filter((item) => item.id === +id);
 
