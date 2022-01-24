@@ -1,0 +1,6 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/corojocl/public_html
+        - /bin/cp filename $/home/corojocl/repositories/corojo-club
+        - /bin cp subfolder $/home/corojocl/repositories/corojo-club/dir

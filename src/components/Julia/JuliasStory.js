@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro';
-import { setFlex, setColor, setFont, media } from '../../stlyes';
+import { setColor, setFont, media } from '../../stlyes';
 import { juliasData } from '../../data/JuliasData'
 
 
