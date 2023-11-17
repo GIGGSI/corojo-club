@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import { FaBars } from 'react-icons/fa'
 import Dropdown from './Dropdown';
+import logo from '../../images/logo.png'
 import './Navbar.css'
 
 
@@ -21,7 +22,10 @@ const Logo = styled(Link)`
 ${NavLink}
 font-style:italic;
 color:white;
-
+img {
+    max-width: 50%;
+    height: auto;
+}
 `
 
 const MenuBars = styled(FaBars)`
@@ -106,14 +110,18 @@ const Navbar = ({ toggle, className }) => {
     window.addEventListener('scroll', changeBackground)
 
     return <nav className={navbar ? 'active' : 'null'}>
-        <Logo to="/">Corojo Club</Logo>
+        {/* <Logo to="/">Corojo Club</Logo> */}
+        <Logo to="/">
+            <img src={logo} alt="Logo Corojo" />
+        </Logo>
+
         <MenuBars onClick={toggle} />
         <NavMenu >
 
             <NavMenuLinks to='#' onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}>
                 Cigars
-                {dropdown && <Dropdown />} 
+                {dropdown && <Dropdown />}
             </NavMenuLinks>
             <NavMenuLinks to='/coffe' >
                 Coffe

@@ -7,43 +7,43 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { SiFacebook, SiInstagram } from 'react-icons/si';
 
 const Footer = () => {
-    return <Container>
-        <Wrapper>
-            <Row>
-                <Column>
-                    <Title>За Контакти</Title>
-                    <Paragrapht>Corojo Club</Paragrapht>
-                    <Paragrapht><FaPhoneAlt />  08761117890</Paragrapht>
-                    <Paragrapht><AiOutlineMail />corojoClub@gmail.com</Paragrapht>
-                    <Paragrapht> ул. „Солунска“ 6, 1000 Център, София</Paragrapht>
-                    <Paragrapht>Работно време: </Paragrapht>
-                    <Paragrapht> Пон. - Събота: 10:30 - 19:30
-                        Неделя: 11:00–18:00</Paragrapht>
-                </Column>
-                <Column>
-                    <Title>Нашите Пури</Title>
-                    <Links to='/cigar/padron'>Padron</Links>
-                    <Links to='/cigar/arturo-fuente'>Arturo Fuente</Links>
-                    <Links to='/cigar/oliva'>Oliva</Links>
-                    <Links to='/cigar/nub'>Nub</Links>
-                    <Links to='/cigar/cain'>Cain</Links>
-                    <Links to='/cigar/la-garela'>La Garela</Links>
-                    <Links to='/cigar/la-flor-dominicana'>La Flor Dominicana</Links>
-                    <Links to='/cigar/ciboa'>Ciboa</Links>
-                </Column>
-                <Column>
-                    <Links to='/'>   <Title>Corojo Club</Title></Links>
-                    <Links to='/coffe'>Coffe</Links>
-                    <Links to='/beer'>Julia</Links>
-                    <Links to='/events'>Информация за ивенти и блог статии</Links>
-                    <AncorTag href="https://www.facebook.com/" target="_blank" ><SiFacebook /> Corojo Club</AncorTag>
-                    <AncorTag href="https://www.instagram.com/" target="_blank" ><SiInstagram /> Instagram</AncorTag>
+  return <Container>
+    <Wrapper>
+      <Row>
+        <Column>
+          <Title>За Контакти</Title>
+          <Paragrapht>Corojo Club</Paragrapht>
+          <Paragrapht><FaPhoneAlt /> <a href='tel:0886160047' >  0886160047 </a></Paragrapht>
+          <Paragrapht><AiOutlineMail /> corojoClub@gmail.com</Paragrapht>
+          <Paragrapht> ул. „Кумата“ 36, Бояна, София</Paragrapht>
+          <Paragrapht>Работно време: </Paragrapht>
+          <Paragrapht> Пон. - Събота: 10:30 - 19:30
+            Неделя: 11:00–18:00</Paragrapht>
+        </Column>
+        <Column>
+          <Title>Нашите Пури</Title>
+          <Links to='/cigar/padron'>Padron</Links>
+          <Links to='/cigar/arturo-fuente'>Arturo Fuente</Links>
+          <Links to='/cigar/oliva'>Oliva</Links>
+          <Links to='/cigar/nub'>Nub</Links>
+          <Links to='/cigar/cain'>Cain</Links>
+          <Links to='/cigar/la-garela'>La Garela</Links>
+          <Links to='/cigar/la-flor-dominicana'>La Flor Dominicana</Links>
+          <Links to='/cigar/ciboa'>Ciboa</Links>
+        </Column>
+        <Column>
+          <Links to='/'>   <Title>Corojo Club</Title></Links>
+          <Links to='/coffe'>Coffe</Links>
+          <Links to='/beer'>Julia</Links>
+          <Links to='/events'>Информация за ивенти и блог статии</Links>
+          <AncorTag href="https://www.facebook.com/" target="_blank" ><SiFacebook /> Corojo Club</AncorTag>
+          <AncorTag href="https://www.instagram.com/" target="_blank" ><SiInstagram /> Instagram</AncorTag>
 
-                </Column>
+        </Column>
 
-            </Row>
-        </Wrapper>
-    </Container>
+      </Row>
+    </Wrapper>
+  </Container>
 }
 
 
@@ -104,6 +104,15 @@ export const Title = styled.h3`
 export const Paragrapht = styled.p`
 color:${setColor.mainWhite};
 padding-bottom:0.3rem;
+
+a{
+  text-decoration: none;
+  color:${setColor.mainWhite};
+  &:hover {
+      color: #ff9c00;
+      transition: 200ms ease-in;
+  }
+}
 
 `
 
